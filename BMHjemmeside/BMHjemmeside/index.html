@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>Balling Maskiner</title>
+    <meta charset="utf-8" />
+
+    <!-- Styling --> 
+    <link rel="stylesheet" type="text/css" href="app/content/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="app/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- JavaScript -->
+    <script src="app/scripts/jquery-3.1.1.min.js"></script>
+    <script src="app/scripts/angular.min.js"></script>
+    <script src="app/scripts/angular-route.min.js"></script>
+    <script src="app/scripts/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container" ng-controller="appController">
+            <div class="navbar-header">
+                <img id="menuLogo" src="app/images/BallingMaskinerLogo.png" alt="logo">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul id="navbar" class="nav navbar-nav navbar-right menuAnimation">
+                    <li ng-class="{'current':selectedMenu === 'home'}"><a href="#" ng-click="selectedMenu = 'home'">Forside</a></li>
+                    <li ng-class="{'current':selectedMenu === 'about'}"><a href="#/about" ng-click="selectedMenu = 'about'">Om os</a></li>
+                    <li ng-class="{'current':selectedMenu === 'contact'}"><a href="#/contact" ng-click="selectedMenu = 'contact'">Kontakt</a></li>
+                    <li ng-class="{'current':selectedMenu === 'showroom'}"><a href="#/showroom" ng-click="selectedMenu = 'showroom'">Showroom</a></li>
+                    <li ng-class="{'current':selectedMenu === 'technology'}"><a href="#/technology" ng-click="selectedMenu = 'technology'">Teknologi</a></li>
+                    <li ng-class="{'current':selectedMenu === 'service'}"><a href="#/service" ng-click="selectedMenu = 'service'">Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div class="ng-view"></div>
+
+    <!-- Routing -->
+    <script src="app/app.js"></script>
+
+    <!-- Controllers -->
+    <script src="app/controllers/aboutController.js"></script>
+    <script src="app/controllers/contactController.js"></script>
+    <script src="app/controllers/homeController.js"></script>
+    <script src="app/controllers/showroomController.js"></script>
+    <script src="app/controllers/technologyController.js"></script>
+    <script src="app/controllers/serviceController.js"></script>
+
+</body>
+</html>
