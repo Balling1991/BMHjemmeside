@@ -1,22 +1,44 @@
 ﻿body {
     color: #777;
+    height:100%;
 }
 
-/* MENU */
+/* CONTACT PAGE */
 
+.employeeCard img{
+    margin: 10px;
+}
+
+
+/* MENU */
 #menuLogo {
-    position: absolute;
-    height: 87px;
-    width: 198px;
-    margin-top: 10px;
+    display:block;
+    height:100px;
+    width:220px;
+    margin:10px auto;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align:top;
+}
+
+.navbar .navbar-collapse {
+    text-align:center;
+    height: 90px;
 }
 
 .navbar-default .navbar-nav > li > a {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     letter-spacing: 0;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .navbar-toggle {
@@ -184,8 +206,8 @@ div.productBox {
 .menuAnimation a:before,
 .menuAnimation a:after {
   position: absolute;
-  -webkit-transition: all 0.25s ease;
-  transition: all 0.25s ease;
+  -webkit-transition: all 0.10s ease;
+  transition: all 0.10s ease;
   margin-left: -15px;
 }
 .menuAnimation a:before {
@@ -215,4 +237,38 @@ div.productBox {
 .menuAnimation a:hover:after,
 .menuAnimation .current a:after {
   max-width: 100%;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      margin: auto;
+  }
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #d4d4d4;
+}
+
+.site {
+    display:flex;
+    min-height:100vh;
+    flex-direction:column;
+}
+
+.site-content {
+    flex: 1;
+}
+
+.bottomfooter {
+  display: block;
+  height: 50px;
+  background-color: #eee;
+  text-align: center;
+  color: #000;
+}
+
+.bottomfooter p{
+  padding-top:15px;
 }

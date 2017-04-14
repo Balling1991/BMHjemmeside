@@ -16,31 +16,127 @@
     <script src="app/scripts/bootstrap.min.js"></script>
 
 </head>
-<body>
-    <nav class="navbar navbar-default">
-        <div class="container" ng-controller="appController">
-            <div class="navbar-header">
-                <img id="menuLogo" src="app/images/BallingMaskinerLogo.png" alt="logo">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+<body class="site">
+        <nav class="navbar navbar-default">
+            <div class="container" ng-controller="appController">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img id="menuLogo" src="app/images/BallingMaskinerLogo.png" alt="logo">
+                    </div>
+                </div>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar" style="text-align:center;">
+                    <ul id="navbar" class="nav navbar-nav menuAnimation">
+                        <li><a href="#">Forside</a></li>
+                        <li><a href="#/about">Om os</a></li>
+                        <li><a href="#/contact">Kontakt</a></li>
+                        <li><a href="#/showroom">Showroom</a></li>
+                        <li><a href="#/technology">Teknologi</a></li>
+                        <li><a href="#/service">Service</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul id="navbar" class="nav navbar-nav navbar-right menuAnimation">
-                    <li ng-class="{'current':selectedMenu === 'home'}"><a href="#" ng-click="selectedMenu = 'home'">Forside</a></li>
-                    <li ng-class="{'current':selectedMenu === 'about'}"><a href="#/about" ng-click="selectedMenu = 'about'">Om os</a></li>
-                    <li ng-class="{'current':selectedMenu === 'contact'}"><a href="#/contact" ng-click="selectedMenu = 'contact'">Kontakt</a></li>
-                    <li ng-class="{'current':selectedMenu === 'showroom'}"><a href="#/showroom" ng-click="selectedMenu = 'showroom'">Showroom</a></li>
-                    <li ng-class="{'current':selectedMenu === 'technology'}"><a href="#/technology" ng-click="selectedMenu = 'technology'">Teknologi</a></li>
-                    <li ng-class="{'current':selectedMenu === 'service'}"><a href="#/service" ng-click="selectedMenu = 'service'">Service</a></li>
-                </ul>
+        </nav>
+
+        <div class="ng-view site-content"></div>
+
+    <footer class="footer">
+        <div class="container" ng-controller="appController">
+            <div class="row">
+                <div class="footerText">
+                    <div class="col-xs-6">
+                        <div class="col-lg-6 col-md-6 col-sm-6 footerAlign">
+                            <h3>Teknologier</h3>
+                            <div>
+                                <a ng-click="selectedMenu = 'technology'" href="#/technology">Drejning</a>
+                            </div>
+                            <div>
+                                <a ng-click="selectedMenu = 'technology'" href="#/technology">Fræsning</a>
+                            </div>
+                            <div>
+                                <a ng-click="selectedMenu = 'technology'" href="#/technology">Gnist</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 footerAlign">
+                            <h3>Brands</h3>
+                            <div>
+                                <a ng-click="selectedMenu = 'technology'" href="#/technology">EMCO</a>
+                            </div>
+                            <div>
+                                <a ng-click="selectedMenu = 'technology'" href="#/technology">Makino</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="col-lg-6 col-md-6 col-sm-6 footerAlign">
+                            <h3>Menu</h3>
+                            <div class="footerMenu">
+                                <div>
+                                    <a ng-click="selectedMenu = 'home'" href="#">Forside</a>
+                                </div>
+                                <div>
+                                    <a ng-click="selectedMenu = 'about'" href="#/about"> Om os </a>
+                                </div>
+                                <div>
+                                    <a ng-click="selectedMenu = 'contact'" href="#/contact">Kontakt</a>
+                                </div>
+                                <div>
+                                    <a ng-click="selectedMenu = 'showroom'" href="#/showroom">Showroom</a>
+                                </div>
+                                <div>
+                                    <a ng-click="selectedMenu = 'technology'" href="#/technology">Teknologi</a>
+                                </div>
+                                <div>
+                                    <a ng-click="selectedMenu = 'service'" href="#/service">Service</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 footerAlign" style="padding-bottom: 20px;">
+                            <h3>Kontakt</h3>
+                            <div>
+                                <div>
+                                    Balling Maskiner ApS
+                                </div>
+                                <div>
+                                    Platinvej 26 D
+                                </div>
+                                <div>
+                                    DK-6000 Kolding
+                                </div>
+                                <div>
+                                    CVR 32359434
+                                </div>
+                            </div>
+                            <h3>Om os</h3>
+                            <div>
+                                <div>
+                                    Balling Maskiner ApS
+                                </div>
+                                <div>
+                                    Platinvej 26 D
+                                </div>
+                                <div>
+                                    DK-6000 Kolding
+                                </div>
+                                <div>
+                                    CVR 32359434
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-
-<div class="ng-view"></div>
+        <div class="bottomfooter">
+            <p>Balling Maskiner © 2017. All Rights Reserved</p>
+        </div>
+    </footer>
 
     <!-- Routing -->
     <script src="app/app.js"></script>
@@ -52,6 +148,5 @@
     <script src="app/controllers/showroomController.js"></script>
     <script src="app/controllers/technologyController.js"></script>
     <script src="app/controllers/serviceController.js"></script>
-
 </body>
 </html>

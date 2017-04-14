@@ -18,7 +18,7 @@ app.config(function ($routeProvider) {
             controller: 'contactController'
         })
 
-        .when('/product', {
+        .when('/showroom', {
             templateUrl: 'app/templates/showroom.html',
             controller: 'showroomController'
         })

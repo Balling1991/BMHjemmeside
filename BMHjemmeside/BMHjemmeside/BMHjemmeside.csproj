@@ -96,6 +96,12 @@
     <Content Include="app\css\style.css" />
     <Content Include="app\images\BallingMaskinerLogo.png" />
     <Content Include="app\images\BallingMaskinerLogoSmall.png" />
+    <Content Include="app\images\Carsten_Eskildsen.jpg" />
+    <Content Include="app\images\Charlotte_Bruun.jpg" />
+    <Content Include="app\images\Emcomat E-300.png" />
+    <Content Include="app\images\Frank_Nielsen.jpg" />
+    <Content Include="app\images\Michael_Balling.jpg" />
+    <Content Include="app\images\v33i.jpg" />
     <Content Include="app\scripts\angular-route.min.js" />
     <Content Include="app\scripts\angular.min.js" />
     <Content Include="app\scripts\bootstrap.min.js" />

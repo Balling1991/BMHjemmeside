@@ -1,3 +1,59 @@
-﻿<div>
-    {{message}}
+﻿<div class="container" ng-controller="technologyController">
+    <!--<h1 style="padding-top: 20px; padding-bottom: 20px;">Teknologier</h1>-->
+    <div class="row">
+        <div class="col-md-3" style="padding-top:18px">
+            <div class="panel panel-default" style="margin-top: 10px;">
+                <div class="panel-heading">
+                    <h2 style="margin:0;">Brands</h2>
+                </div>
+                <div class="panel-body">
+                    <div ng-repeat="teknologi in teknologier">
+                        <h4 style="margin-top:0; margin-bottom:15px;">
+                            {{teknologi.name}}
+                        </h4>
+                        <ul ng-repeat="brand in teknologi.brands">
+                            <li>
+                                <a href="" ng-click="chosenBrand(brand)">{{brand.name}}</a>
+                                <ul ng-repeat="model in brand.models">
+                                    <li>
+                                        <a href="" ng-click="chosenModel(model)">{{model.name}}</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9" style="padding-top:25px">
+            <div ng-if="!modelToRender">
+                <div ng-repeat="model in brandToRender.models">
+                    <div class="col-md-9">
+                        <div class="thumbnail">
+                            <img src="{{model.path}}" />
+                            <div class="caption">
+                                <h3>{{model.name}}</h3>
+                                <p>{{model.description}}</p>
+                                <a href="" class="btn btn-sm btn-primary">Mere info</a>
+                                <a href="" class="btn btn-sm btn-default">Hent brochure</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div ng-if="modelToRender">
+                <div class="col-md-9">
+                    <div class="thumbnail">
+                        <img src="{{modelToRender.path}}" />
+                        <div class="caption">
+                            <h3>{{modelToRender.name}}</h3>
+                            <p>{{modelToRender.description}}</p>
+                            <a href="" class="btn btn-sm btn-primary">Mere info</a>
+                            <a href="" class="btn btn-sm btn-default">Hent brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
