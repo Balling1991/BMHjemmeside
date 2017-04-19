@@ -9,6 +9,27 @@
     margin: 10px;
 }
 
+/* TECHNOLOGY PAGE */
+
+.noLinkDecoration {
+    text-decoration:none;
+    color:#777;
+}
+
+.noLinkDecoration:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color:#333;
+}
+
+.noLinkDecoration:focus {
+    text-decoration: none;
+    color: #777;
+}
+
+.noListStyle {
+    list-style: none;
+}
 
 /* MENU */
 #menuLogo {

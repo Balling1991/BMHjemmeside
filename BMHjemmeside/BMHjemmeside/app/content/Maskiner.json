@@ -1,0 +1,277 @@
+﻿[
+  {
+    "name": "Vertikal maskincentre",
+    "brands": [
+      {
+        "name": "Makino",
+        "models": [
+          {
+            "name": "V33i",
+            "path": "app/images/v33i.jpg",
+            "description": "The V33i vertical machining center provides high-speed machining with superb accuracy,efficient chip removal and ease of operation. The spindle features Makino’s unique core-cooling and under-race lubrication system, minimizing thermal distortion at high spindle speeds. Integrated construction of the spindle and drive motor rotor reduces vibration during high-speed operation— just one more reason why the V33i is your ideal hard milling machine."
+          },
+          {
+            "name": "DA300",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "PS65-PS95",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "F3-F5",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "F8-F9",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "V22",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "V56i",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "V77",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "V77L",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "V99",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "V99L",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "V22-5XB",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "V33i-5XB",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "V56-5XB",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "D300",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "D500",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "D800z",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "iQ300",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "FB127",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "V22 Graphite",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "V33i Graphite",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "V56 Graphite",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "V77 Graphite",
+            "path": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Horisontal maskincentre",
+    "brands": [
+      {
+        "name": "Makino",
+        "models": [
+          {
+            "name": "a51nx",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "a61nx",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "a71",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "a81",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "a1 Series 5XR",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "a81M",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "a82",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "a92",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "A100E",
+            "path": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sænkgnist maskiner",
+    "brands": [
+      {
+        "name": "Makino",
+        "models": [
+          {
+            "name": "EDAC1",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "EDAF2/3",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "EDNC65(S)",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "EDNC85(S)",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "EDNC207(S)",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "EDNC2015(S)-2H Type 1",
+            "path": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Trådgnist maskiner",
+    "brands": [
+      {
+        "name": "Makino",
+        "models": [
+          {
+            "name": "U3",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "U6",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "DUO43/64",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "U32j",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "U53j",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "U86",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "UPN-01",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "UPV-3 Oil dielectric system",
+            "path": "",
+            "description": ""
+          },
+          {
+            "name": "UPV-5 Oil dielectric system",
+            "path": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  }
+]

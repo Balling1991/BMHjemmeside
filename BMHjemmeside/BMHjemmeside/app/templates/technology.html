@@ -4,23 +4,27 @@
         <div class="col-md-3" style="padding-top:18px">
             <div class="panel panel-default" style="margin-top: 10px;">
                 <div class="panel-heading">
-                    <h2 style="margin:0;">Brands</h2>
+                    <h2 style="margin:0; color:#777">Brands</h2>
                 </div>
                 <div class="panel-body">
                     <div ng-repeat="teknologi in teknologier">
                         <h4 style="margin-top:0; margin-bottom:15px;">
-                            {{teknologi.name}}
+                            <i class="glyphicon glyphicon-menu-right"></i><a href="" class="noLinkDecoration" ng-click="showBrands = !showBrands"> {{teknologi.name}}</a>
                         </h4>
-                        <ul ng-repeat="brand in teknologi.brands">
-                            <li>
-                                <a href="" ng-click="chosenBrand(brand)">{{brand.name}}</a>
-                                <ul ng-repeat="model in brand.models">
-                                    <li>
-                                        <a href="" ng-click="chosenModel(model)">{{model.name}}</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+                        <div ng-show="showBrands">
+                            <ul class="noListStyle" ng-repeat="brand in teknologi.brands">
+                                <li>
+                                    <a href="" class="noLinkDecoration" ng-click="showModels = !showModels">{{brand.name}}</a>
+                                    <div ng-show="showModels">
+                                        <ul class="noListStyle" ng-repeat="model in brand.models">
+                                            <li>
+                                                <a href="" class="noLinkDecoration" ng-click="chosenModel(model)">{{model.name}}</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
