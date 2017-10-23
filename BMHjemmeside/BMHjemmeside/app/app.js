@@ -38,6 +38,10 @@ app.config(function ($routeProvider) {
 
 app.controller('appController', function ($scope) {
 
-    $scope.selectedMenu = "home";
+    $("a.menu")
+        .click(function() {
+            $("a.menu").removeClass("active");
+            $(this).addClass("active");
+        });
 
 });

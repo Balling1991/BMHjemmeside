@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -43,10 +42,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Web.DynamicData" />
@@ -94,14 +89,68 @@
     <Content Include="app\controllers\serviceController.js" />
     <Content Include="app\controllers\technologyController.js" />
     <Content Include="app\css\style.css" />
+    <Content Include="app\images\A100E.jpg" />
+    <Content Include="app\images\a51nx.jpg" />
+    <Content Include="app\images\a61nx.jpg" />
+    <Content Include="app\images\a71.jpg" />
+    <Content Include="app\images\a71nx.jpg" />
+    <Content Include="app\images\a81nx.jpg" />
+    <Content Include="app\images\a82.jpg" />
+    <Content Include="app\images\a82M.jpg" />
+    <Content Include="app\images\a92.jpg" />
+    <Content Include="app\images\A99E.jpg" />
     <Content Include="app\images\BallingMaskinerLogo.png" />
     <Content Include="app\images\BallingMaskinerLogoSmall.png" />
     <Content Include="app\images\Carsten_Eskildsen.jpg" />
     <Content Include="app\images\Charlotte_Bruun.jpg" />
+    <Content Include="app\images\D200z.jpg" />
+    <Content Include="app\images\D300.jpg" />
+    <Content Include="app\images\D500.jpg" />
+    <Content Include="app\images\D800z.jpg" />
+    <Content Include="app\images\DA300.jpg" />
+    <Content Include="app\images\EDAC1.jpg" />
+    <Content Include="app\images\EDAF2.jpg" />
+    <Content Include="app\images\EDAF3.jpg" />
+    <Content Include="app\images\EDNC10.jpg" />
+    <Content Include="app\images\EDNC15.jpg" />
+    <Content Include="app\images\EDNC17.jpg" />
+    <Content Include="app\images\EDNC20.jpg" />
+    <Content Include="app\images\EDNC21.jpg" />
+    <Content Include="app\images\EDNC6.jpg" />
+    <Content Include="app\images\EDNC8.jpg" />
     <Content Include="app\images\Emcomat E-300.png" />
+    <Content Include="app\images\F3.jpg" />
+    <Content Include="app\images\F5.jpg" />
+    <Content Include="app\images\F8.jpg" />
+    <Content Include="app\images\F9.jpg" />
+    <Content Include="app\images\FB127.jpg" />
     <Content Include="app\images\Frank_Nielsen.jpg" />
+    <Content Include="app\images\IQ300.jpg" />
     <Content Include="app\images\Michael_Balling.jpg" />
+    <Content Include="app\images\PS105.jpg" />
+    <Content Include="app\images\PS65.jpg" />
+    <Content Include="app\images\PS95.jpg" />
+    <Content Include="app\images\U1310.jpg" />
+    <Content Include="app\images\U3.jpg" />
+    <Content Include="app\images\U32j.jpg" />
+    <Content Include="app\images\U53j.jpg" />
+    <Content Include="app\images\U6-heat.jpg" />
+    <Content Include="app\images\U86.jpg" />
+    <Content Include="app\images\UPN-01.jpg" />
+    <Content Include="app\images\UPV-3.jpg" />
+    <Content Include="app\images\UPV-5.jpg" />
+    <Content Include="app\images\V22 Graphite.jpg" />
+    <Content Include="app\images\V22-5XB.jpg" />
+    <Content Include="app\images\V22.jpg" />
+    <Content Include="app\images\v33i graphite.jpg" />
+    <Content Include="app\images\V33i-5XB.jpg" />
     <Content Include="app\images\v33i.jpg" />
+    <Content Include="app\images\V56i.jpg" />
+    <Content Include="app\images\V77 Graphite.jpg" />
+    <Content Include="app\images\V77.jpg" />
+    <Content Include="app\images\V77L.jpg" />
+    <Content Include="app\images\V99.jpg" />
+    <Content Include="app\images\V99L.jpg" />
     <Content Include="app\scripts\angular-route.min.js" />
     <Content Include="app\scripts\angular.min.js" />
     <Content Include="app\scripts\bootstrap.min.js" />
@@ -133,7 +182,7 @@
     <Content Include="app\content\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="app\content\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="app\content\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="app\content\Maskiner.json" />
+    <None Include="app\content\maskiner.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -172,13 +221,6 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
-    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
-  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
