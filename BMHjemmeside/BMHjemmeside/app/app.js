@@ -39,9 +39,16 @@ app.config(function ($routeProvider) {
 app.controller('appController', function () {
 
     $("a.menu")
-        .click(function() {
-            $("a.menu").removeClass("active");
-            $(this).addClass("active");
-        });
+    .click(function() {
+        $("a.menu").removeClass("active");
+        $(this).addClass("active");
+    });
+
+    $("a.footerItem")
+    .click(function () {
+        $("a.menu").removeClass("active");
+        var text = $(this).text();
+        $("a.menu:contains('"+text+"')").addClass("active");
+    });
 
 });
