@@ -36,7 +36,7 @@ app.config(function ($routeProvider) {
         .otherwise({ redirectTo: '/' });
 });
 
-app.controller('appController', function ($scope) {
+app.controller('appController', function () {
 
     $("a.menu")
         .click(function() {

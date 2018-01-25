@@ -3,7 +3,7 @@
     $scope.modelToRender = null;
     $scope.teknologier = null;
 
-    $http.get('app/content/maskiner.json')
+    $http.get('../app/content/maskiner.json')
         .then(function (result) {
             $scope.teknologier = result.data;
         });
