@@ -8,8 +8,8 @@
                 </div>
                 <div class="panel-body">
                     <div ng-repeat="teknologi in teknologier">
-                        <h4 style="margin-top:0; margin-bottom:15px;">
-                            <i class="glyphicon glyphicon-menu-right"></i><a href="" class="noLinkDecoration" ng-click="showBrands = !showBrands"> {{teknologi.name}}</a>
+                        <h4 style="margin-top:0; margin-bottom:15px" class="noListStyleTechnology">
+                            <a href="" ng-click="showBrands = !showBrands"> {{teknologi.name}}</a>
                         </h4>
                         <div ng-show="showBrands">
                             <ul class="noListStyle" ng-repeat="brand in teknologi.brands">

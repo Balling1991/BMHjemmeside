@@ -12,23 +12,41 @@
 /* TECHNOLOGY PAGE */
 
 .noLinkDecoration {
-    text-decoration:none;
-    color:#777;
-}
-
-.noLinkDecoration:hover {
-    text-decoration: none;
-    color: #FFF;
-    background-color:#333;
-}
-
-.noLinkDecoration:focus {
     text-decoration: none;
     color: #777;
+    display: block;
+    padding: 5px;
 }
+
+    .noLinkDecoration:hover {
+        text-decoration: none;
+        background-color: #d4d4d4;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+
+    .noLinkDecoration:focus {
+        text-decoration: none;
+        color: #777;
+        border-left: 2px solid #841d62;
+    }
+
+    .noLinkDecoration:active {
+        text-decoration: none;
+        color: #777;
+        border-left: 2px solid #841d62;
+    }
 
 .noListStyle {
     list-style: none;
+    padding-left: 20px;
+}
+
+.noListStyleTechnology a {
+    text-decoration: none;
 }
 
 /* MENU */
@@ -94,21 +112,6 @@ div.productBox {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 10px;
-}
-
-.border {
-    position: relative;
-    z-index: 1;
-}
-.border:before {
-    content: "";
-    position: absolute;
-    left: 45%;
-    bottom: 0;
-    height: 1px;
-    width: 10%;
-    border-bottom: 5px solid #841d62;
-    border-radius: 50px;
 }
 
 @media (min-width: 768px) {
@@ -201,71 +204,7 @@ div.productBox {
     }
 
 
-/* MENU ANIMATION */
 
-/*.menuAnimation {
-  font-family: 'Raleway', Arial, sans-serif;
-  text-align: center;
-  font-weight: 500;
-}
-.menuAnimation * {
-  box-sizing: border-box;
-}
-.menuAnimation li {
-  list-style: outside none none;
-  margin: 0 1em;
-  padding: 0;
-}
-
-@media (max-width: 1200px) {
-    .menuAnimation li {
-        margin: 0;
-    }
-}
-
-.menuAnimation a {
-  padding: 0.5em 0;
-  color: rgba(255, 255, 255, 0.5);
-  position: relative;
-  letter-spacing: 1px;
-  text-decoration: none;
-}
-.menuAnimation a:before,
-.menuAnimation a:after {
-  position: absolute;
-  -webkit-transition: all 0.10s ease;
-  transition: all 0.10s ease;
-  margin-left: -15px;
-}
-.menuAnimation a:before {
-  bottom: 0;
-  display: block;
-  height: 2px;
-  width: 0%;
-  content: "";
-  background-color: #841D62;
-}
-
-.menuAnimation a:after {
-  left: 0;
-  top: 0;
-  padding: 0.5em 0;
-  position: absolute;
-  content: attr(data-hover);
-  color: #ffffff;
-  white-space: nowrap;
-  max-width: 0%;
-  overflow: hidden;
-}
-.menuAnimation a:hover:before,
-.menuAnimation .current a:before {
-  opacity: 1;
-  width: 100%;
-}
-.menuAnimation a:hover:after,
-.menuAnimation .current a:after {
-  max-width: 100%;
-}*/
 
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
