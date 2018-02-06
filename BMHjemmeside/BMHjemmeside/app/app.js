@@ -32,7 +32,6 @@ app.config(function ($routeProvider) {
             templateUrl: 'app/templates/technology.html',
             controller: 'technologyController'
         })
-
         .otherwise({ redirectTo: '/' });
 });
 
@@ -50,5 +49,4 @@ app.controller('appController', function () {
         var text = $(this).text();
         $("a.menu:contains('"+text+"')").addClass("active");
     });
-
 });
