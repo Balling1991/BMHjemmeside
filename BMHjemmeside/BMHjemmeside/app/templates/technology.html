@@ -1,5 +1,4 @@
 ﻿<div class="container" ng-controller="technologyController">
-    <!--<h1 style="padding-top: 20px; padding-bottom: 20px;">Teknologier</h1>-->
     <div class="row">
         <div class="col-md-3" style="padding-top:18px">
             <div class="panel panel-default" style="margin-top: 10px;">
@@ -9,16 +8,16 @@
                 <div class="panel-body">
                     <div ng-repeat="teknologi in teknologier">
                         <h4 style="margin-top:0; margin-bottom:15px" class="noListStyleTechnology">
-                            <a href="" ng-click="showBrands = !showBrands"> {{teknologi.name}}</a>
+                            <i class="glyphicon glyphicon-chevron-right" ng-class="{ 'gly-rotate-90': showbrand === $index}" style="font-size:12px;"></i><a href="" ng-click="showBrands($index)"> {{teknologi.name}}</a>
                         </h4>
-                        <div ng-show="showBrands">
+                        <div ng-show="showbrand === $index">
                             <ul class="noListStyle" ng-repeat="brand in teknologi.brands">
                                 <li>
-                                    <a href="" class="noLinkDecoration" ng-click="showModels = !showModels">{{brand.name}}</a>
-                                    <div ng-show="showModels">
+                                <a href="" class="noLinkDecoration" ng-click="showModels($index)"><i class="glyphicon glyphicon-chevron-right" ng-class="{ 'gly-rotate-90': showmodel === $index}" style="font-size:10px;"></i> {{brand.name}}</a>
+                                    <div ng-show="showmodel === $index">
                                         <ul class="noListStyle" ng-repeat="model in brand.models">
                                             <li>
-                                                <a href="" class="noLinkDecoration" ng-class="{ active: selectedModel === $index }" ng-click="chosenModel(model, $index)">{{model.name}}</a>
+                                                <a href="" class="noLinkDecoration" ng-class="{ 'activeModel': selectedModel === $index }" ng-click="chosenModel(model, $index)">{{model.name}}</a>
                                             </li>
                                         </ul>
                                     </div>
