@@ -18,7 +18,7 @@
                                     <div ng-show="showModels">
                                         <ul class="noListStyle" ng-repeat="model in brand.models">
                                             <li>
-                                                <a href="" class="noLinkDecoration" ng-click="chosenModel(model)">{{model.name}}</a>
+                                                <a href="" class="noLinkDecoration" ng-class="{ active: selectedModel === $index }" ng-click="chosenModel(model, $index)">{{model.name}}</a>
                                             </li>
                                         </ul>
                                     </div>
