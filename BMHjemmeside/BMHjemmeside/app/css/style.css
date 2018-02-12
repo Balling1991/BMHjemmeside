@@ -90,6 +90,14 @@
     border-bottom: 2px solid #841d62;
 }
 
+.transparent-menu {
+    position: absolute;
+    background-color: rgba(248,248,248, 0.3);
+    border: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
 div.productBox {
     /*margin-left: 100px;*/
     /*margin-right: 100px;*/
