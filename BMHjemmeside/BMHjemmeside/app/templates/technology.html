@@ -8,16 +8,16 @@
                 <div class="panel-body">
                     <div ng-repeat="teknologi in teknologier">
                         <h4 style="margin-top:0; margin-bottom:15px" class="noListStyleTechnology">
-                            <i class="glyphicon glyphicon-chevron-right" ng-class="{ 'gly-rotate-90': showbrand === $index}" style="font-size:12px;"></i><a href="" ng-click="showBrands($index)"> {{teknologi.name}}</a>
+                            <i class="glyphicon glyphicon-chevron-right" ng-class="{ 'gly-rotate-90': showbrand === true}" style="font-size:12px;"></i><a href="" ng-click="showbrand = !showbrand"> {{teknologi.name}}</a>
                         </h4>
-                        <div ng-show="showbrand === $index">
+                        <div ng-show="showbrand">
                             <ul class="noListStyle" ng-repeat="brand in teknologi.brands">
                                 <li>
-                                <a href="" class="noLinkDecoration" ng-click="showModels($index)"><i class="glyphicon glyphicon-chevron-right" ng-class="{ 'gly-rotate-90': showmodel === $index}" style="font-size:10px;"></i> {{brand.name}}</a>
-                                    <div ng-show="showmodel === $index">
+                                <a href="" class="noLinkDecoration" ng-click="showmodel = !showmodel"><i class="glyphicon glyphicon-chevron-right" ng-class="{ 'gly-rotate-90': showmodel === true}" style="font-size:10px;"></i> {{brand.name}}</a>
+                                    <div ng-show="showmodel">
                                         <ul class="noListStyle" ng-repeat="model in brand.models">
                                             <li>
-                                                <a href="" class="noLinkDecoration" ng-class="{ 'activeModel': selectedModel === $index }" ng-click="chosenModel(model, $index)">{{model.name}}</a>
+                                                <a href="" class="noLinkDecoration" ng-class="{ 'activeModel': modelToRender === model }" ng-click="chosenModel(model)">{{model.name}}</a>
                                             </li>
                                         </ul>
                                     </div>
