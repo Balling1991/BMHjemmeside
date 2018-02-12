@@ -162,6 +162,7 @@
     <Content Include="app\templates\showroom.html" />
     <Content Include="app\templates\service.html" />
     <Content Include="app\templates\technology.html" />
+    <Content Include="app\videos\makino_promo_Hq.mp4" />
     <Content Include="app\videos\oceans.mp4" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
