@@ -7,18 +7,18 @@
     <link rel="stylesheet" type="text/css" href="app/content/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="app/css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
     <!-- JavaScript -->
     <script src="app/scripts/jquery-3.1.1.min.js"></script>
     <script src="app/scripts/angular.min.js"></script>
     <script src="app/scripts/angular-route.min.js"></script>
     <script src="app/scripts/bootstrap.min.js"></script>
+    <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
+
     <!-- If you'd like to support IE8 -->
     <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
-    <script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
 </head>
 <body class="site">
-        <nav class="navbar navbar-default transparent-menu">
+        <nav class="navbar navbar-default">
             <div class="container" ng-controller="appController">
                 <div class="row">
                     <div class="col-md-12">
@@ -34,11 +34,11 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar" style="text-align:center;">
                     <ul id="navbar" class="nav navbar-nav menuAnimation">
-                        <li><a class="menu" href="#">Forside</a></li>
-                        <li><a class="menu" href="#/about">Om os</a></li>
-                        <li><a class="menu" href="#/contact">Kontakt</a></li>
-                        <li><a class="menu" href="#/technology">Teknologi</a></li>
-                        <li><a class="menu" href="#/service">Service</a></li>
+                        <li><a class="menu" id="home" href="#">Forside</a></li>
+                        <li><a class="menu" id="about" href="#/about">Om os</a></li>
+                        <li><a class="menu" id="contact" href="#/contact">Kontakt</a></li>
+                        <li><a class="menu" id="technology" href="#/technology">Teknologi</a></li>
+                        <li><a class="menu" id="service" href="#/service">Service</a></li>
                     </ul>
                 </div>
             </div>

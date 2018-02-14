@@ -1,25 +1,8 @@
 ﻿<div class="container-fluid" ng-controller="homeController">
     <div class="row">
-        <div id="video-container">
-            <video autoplay muted loop id="my-video" class="video-js" 
-               preload="auto" style="
-    /*left: 0 !important;
-    min-height: 100% !important;
-    min-width: 1125px !important;
-    width: 100% !important;
-    height: 100% !important;
-    margin: auto !important;
-    right: 0 !important;
-    top: 0 !important;
-    overflow: hidden !important;
-*/
-    /*@media (min-height: 400px) and (max-height: 960px) {
-    #my-video {
-    width: 100%;
-    overflow-x: hidden; } } */
-               "
-               data-setup="{}">
-                <source src="app/videos/makino_promo_Hq.mp4" type='video/mp4'>
+        <div class="video-container">
+            <video autoplay muted loop class="video-js" preload="auto">
+                <source src="/app/videos/makino_promo_Hq.mp4" type="video/mp4" />
                 <p class="vjs-no-js">
                     To view this video please enable JavaScript, and consider upgrading to a web browser that
                     <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
@@ -27,4 +10,5 @@
             </video>
         </div>
     </div>
+    <script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
 </div>
