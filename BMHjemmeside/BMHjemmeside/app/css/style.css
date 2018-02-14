@@ -21,6 +21,7 @@
     .noLinkDecoration:hover {
         text-decoration: none;
         background-color: #d4d4d4;
+        color: #777;
         -webkit-transition: all 0.2s ease;
         -moz-transition: all 0.2s ease;
         -o-transition: all 0.2s ease;
@@ -28,6 +29,7 @@
         transition: all 0.2s ease;
     }
 
+    .noLinkDecoration:focus,
     .noLinkDecoration:active {
         text-decoration: none;
         color: #777;
@@ -37,10 +39,21 @@
 .noListStyle {
     list-style: none;
     padding-left: 20px;
+    color: #777;
 }
 
-.noListStyleTechnology a {
+.noListStyleTechnology a,
+.noListStyleTechnology a:focus,
+.noListStyleTechnology a:hover {
     text-decoration: none;
+    color: #777;
+}
+
+.noListStyleTechnology,
+.noListStyleTechnology:focus,
+.noListStyleTechnology:hover {
+    text-decoration: none;
+    color: #777;
 }
 
 .activeModel {
@@ -86,7 +99,6 @@
 
 .navbar-default .navbar-nav > li > a.active {
     color: #000000;
-    /*background-color: #cecece;*/
     border-bottom: 2px solid #841d62;
 }
 
@@ -96,11 +108,6 @@
     border: 0;
     z-index: 1000;
     width: 100%;
-}
-
-div.productBox {
-    /*margin-left: 100px;*/
-    /*margin-right: 100px;*/
 }
 
 .productBox {
@@ -188,8 +195,6 @@ div.productBox {
         }
         .navbar-nav {
             float: none!important;
-            /*margin: 7.5px -15px;*/
-            /*margin: 7.5px 50px 7.5px -15px*/
         }
         .navbar-nav>li {
             float: none;

@@ -13,7 +13,7 @@
                         <div ng-show="showbrand">
                             <ul class="noListStyle" ng-repeat="brand in teknologi.brands">
                                 <li>
-                                <a href="" class="noLinkDecoration" ng-click="showmodel = !showmodel"><i class="glyphicon glyphicon-chevron-right" ng-class="{ 'gly-rotate-90': showmodel === true}" style="font-size:10px;"></i> {{brand.name}}</a>
+                                <a href="" class="noListStyleTechnology" ng-click="showmodel = !showmodel"><i class="glyphicon glyphicon-chevron-right" ng-class="{ 'gly-rotate-90': showmodel === true}" style="font-size:10px;"></i> {{brand.name}}</a>
                                     <div ng-show="showmodel">
                                         <ul class="noListStyle" ng-repeat="model in brand.models">
                                             <li>
