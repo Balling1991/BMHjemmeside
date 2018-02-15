@@ -15,10 +15,6 @@
         $scope.trustedDescription = $sce.trustAsHtml($scope.modelToRender.description);
     };
 
-    //if ($rootScope.detectIE() !== false) {
-    //    $rootScope.positionFooterIE(".container#technologyContent");
-    //} else {
-    //    $rootScope.positionFooterOther();
-    //}
-    //console.log($(".container#technologyContent").height());
+    $rootScope.calcFooterWithMenu();
+
 });

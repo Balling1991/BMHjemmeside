@@ -17,34 +17,37 @@
     <!-- If you'd like to support IE8 -->
     <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 </head>
-<body class="site">
-        <nav class="navbar navbar-default">
-            <div class="container" ng-controller="appController">
-                <div class="row">
-                    <div class="col-md-12">
-                        <img id="menuLogo" src="app/images/BallingMaskinerLogo.png" alt="logo">
-                    </div>
-                </div>
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar" style="text-align:center;">
-                    <ul id="navbar" class="nav navbar-nav menuAnimation">
-                        <li><a class="menu" id="home" href="#">Forside</a></li>
-                        <li><a class="menu" id="about" href="#/about">Om os</a></li>
-                        <li><a class="menu" id="contact" href="#/contact">Kontakt</a></li>
-                        <li><a class="menu" id="technology" href="#/technology">Teknologi</a></li>
-                        <li><a class="menu" id="service" href="#/service">Service</a></li>
-                    </ul>
+<body ng-controller="appController">
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <img id="menuLogo" src="app/images/BallingMaskinerLogo.png" alt="logo">
                 </div>
             </div>
-        </nav>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" style="text-align:center;">
+                <ul id="navbar" class="nav navbar-nav menuAnimation">
+                    <li><a class="menu" id="home" href="#">Forside</a></li>
+                    <li><a class="menu" id="about" href="#/about">Om os</a></li>
+                    <li><a class="menu" id="contact" href="#/contact">Kontakt</a></li>
+                    <li><a class="menu" id="technology" href="#/technology">Teknologi</a></li>
+                    <li><a class="menu" id="service" href="#/service">Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-        <div id="site-content" class="ng-view site-content"></div>
+    <div class="ng-view content"></div>
+    <div class="push"></div>
+
     <footer class="footer">
         <div class="container" ng-controller="appController">
             <div class="row">
@@ -144,5 +147,6 @@
     <script src="app/controllers/showroomController.js"></script>
     <script src="app/controllers/technologyController.js"></script>
     <script src="app/controllers/serviceController.js"></script>
+
 </body>
 </html>
