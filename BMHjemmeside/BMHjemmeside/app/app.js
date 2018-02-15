@@ -3,7 +3,7 @@
 app.config(function ($routeProvider) {
     $routeProvider
 
-        .when('/', {
+        .when('/home', {
             templateUrl: 'app/templates/home.html',
             controller: 'homeController'
         })
@@ -32,21 +32,22 @@ app.config(function ($routeProvider) {
             templateUrl: 'app/templates/technology.html',
             controller: 'technologyController'
         })
-        .otherwise({ redirectTo: '/' });
+        .otherwise({ redirectTo: '/home' });
 });
 
 app.controller('appController', function () {
 
-    $("a.menu")
-    .click(function() {
-        $("a.menu").removeClass("active");
-        $(this).addClass("active");
-    });
-
-    $("a.footerItem")
-    .click(function () {
-        $("a.menu").removeClass("active");
-        var text = $(this).text();
-        $("a.menu:contains('"+text+"')").addClass("active");
-    });
 });
+
+var initPage = function () {
+    $("a.menu").removeClass("active");
+    $(".navbar").removeClass("transparent-menu");
+    var page = (window.location.hash).slice(2);
+    $("#" + page).addClass("active");
+}
+
+app.run(function ($rootScope) {
+    $rootScope.$on('$routeChangeSuccess', function () {
+        initPage();
+    })
+})

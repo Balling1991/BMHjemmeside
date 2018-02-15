@@ -243,7 +243,7 @@
 }
 
 .site-content {
-    flex: 1 0 auto;
+    flex: 1;
 }
 
 .bottomfooter {
@@ -275,7 +275,8 @@
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
 }
-#video-container {
+
+.video-container {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -284,11 +285,16 @@
     overflow: hidden;
 }
 
-    #my-video {
-        position: absolute;
-        min-width: 1150px;
-        /*min-width: 100%;*/
-        min-height: 100%;
-        width: auto;
-        height: auto;
-    }
+.video-container video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%;
+    min-height: 100%;
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

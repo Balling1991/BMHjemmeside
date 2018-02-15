@@ -1,5 +1,7 @@
 ﻿app.controller('homeController', function ($scope) {
 
+    $('.navbar').addClass('transparent-menu');
+
     // set initial footer margin
     var footerHeight = $(".footer").height();
     $(".footer").css('margin-bottom', (footerHeight * -1) + "px");
