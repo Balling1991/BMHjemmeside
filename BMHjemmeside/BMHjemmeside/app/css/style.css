@@ -1,6 +1,8 @@
 ﻿body {
     color: #777;
-    height:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 /* CONTACT PAGE */
@@ -243,7 +245,8 @@
 }
 
 .site-content {
-    flex: 1;
+    flex: 1 0 auto;
+    min-height: 100%;
 }
 
 .bottomfooter {
@@ -287,8 +290,8 @@
 
 .video-container video {
     /* Make video to at least 100% wide and tall */
-    min-width: 100%;
-    min-height: 100%;
+    width: 100%;
+    height: 100%;
     /* Setting width & height to auto prevents the browser from stretching or squishing the video */
     width: auto;
     height: auto;

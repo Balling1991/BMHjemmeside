@@ -1,4 +1,4 @@
-﻿app.controller('technologyController', function ($scope, $http, $sce) {
+﻿app.controller('technologyController', function ($scope, $rootScope, $http, $sce) {
 
     $scope.modelToRender = null;
     $scope.teknologier = null;
@@ -13,6 +13,12 @@
     $scope.chosenModel = function (model) {
         $scope.modelToRender = model;
         $scope.trustedDescription = $sce.trustAsHtml($scope.modelToRender.description);
-
     };
+
+    //if ($rootScope.detectIE() !== false) {
+    //    $rootScope.positionFooterIE(".container#technologyContent");
+    //} else {
+    //    $rootScope.positionFooterOther();
+    //}
+    //console.log($(".container#technologyContent").height());
 });

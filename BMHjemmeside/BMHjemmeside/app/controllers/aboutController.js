@@ -1,5 +1,9 @@
-﻿app.controller('aboutController', function ($scope) {
+﻿app.controller('aboutController', function ($scope, $rootScope) {
 
-    $scope.message = "This is about";
+    //if ($rootScope.detectIE() !== false) {
+    //    $rootScope.positionFooterIE("#aboutContent");
+    //} else {
+    //    $rootScope.positionFooterOther();
+    //}
 
 });
