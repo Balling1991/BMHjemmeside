@@ -39,7 +39,8 @@ app.controller('appController', function ($rootScope) {
 
     $rootScope.calcFooterWithTransMenu = function () {
         $(".content").css("min-height", "100%");
-        $(".content").css("margin-bottom", "-50");
+        $(".content").css("margin-bottom", "-50px");
+        $(".push").css("height", "50px");
     }
 
     $rootScope.calcFooterWithMenu = function () {
