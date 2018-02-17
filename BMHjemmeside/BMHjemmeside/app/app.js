@@ -36,25 +36,13 @@ app.config(function ($routeProvider) {
 });
 
 app.controller('appController', function ($rootScope) {
-
-    $rootScope.calcFooterWithTransMenu = function () {
-        $(".content").css("min-height", "100%");
-        $(".content").css("margin-bottom", "-50px");
-        $(".push").css("height", "50px");
-    }
-
-    $rootScope.calcFooterWithMenu = function () {
-        $(".content").css("min-height", "calc(100% - 190px)");
-        $(".content").css("margin-bottom", "0");
-        $(".push").css("height", "0");
-    }
-
 });
 
 
 
 var initPage = function () {
     $("a.menu").removeClass("active");
+    $(".home").removeClass("home");
     $(".navbar").removeClass("transparent-menu");
     var page = (window.location.hash).slice(2);
     $("#" + page).addClass("active");

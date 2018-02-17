@@ -14,7 +14,4 @@
         $scope.modelToRender = model;
         $scope.trustedDescription = $sce.trustAsHtml($scope.modelToRender.description);
     };
-
-    $rootScope.calcFooterWithMenu();
-
 });
