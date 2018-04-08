@@ -1,9 +1,9 @@
 ﻿<div id="technologyContent" class="container" ng-controller="technologyController">
     <div class="row">
-        <div class="col-md-3" style="padding-top:18px">
+        <div class="col-md-3" style="padding-top:15px">
             <div class="panel panel-default" style="margin-top: 10px;">
                 <div class="panel-heading">
-                    <h2 style="margin:0; color:#777">Brands</h2>
+                    <h2 style="margin:0; color:#777">Produkter</h2>
                 </div>
                 <div class="panel-body">
                     <div ng-repeat="teknologi in teknologier">
@@ -29,6 +29,17 @@
             </div>
         </div>
         <div class="col-md-9" style="padding-top:25px">
+            <div ng-if="!modelToRender">
+                <!--<video muted autoplay loop class="video-js technology-video" preload="auto">
+                    <source src="/app/videos/makino_promo_Hq.mp4" type="video/mp4" />
+                    <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a web browser that
+                        <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                    </p>
+                </video>-->
+            </div>
+        </div>
+        <div class="col-md-9">
             <div ng-if="modelToRender">
                 <div class="col-lg-9 col-md-12">
                     <div class="thumbnail">
@@ -36,8 +47,8 @@
                         <div class="caption">
                             <h3>{{modelToRender.name}}</h3>
                             <div ng-bind-html="trustedDescription"></div>
-                            <a href="" class="btn btn-sm btn-primary">Mere info</a>
-                            <a href="" class="btn btn-sm btn-default">Hent brochure</a>
+                            <a href="{{modelToRender.info}}" target="_blank" class="btn btn-sm btn-primary">Mere info</a>
+                            <a href="{{modelToRender.prospect}}" target="_blank" class="btn btn-sm btn-default">Se brochure</a>
                         </div>
                     </div>
                 </div>

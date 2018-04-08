@@ -102,6 +102,7 @@
     <Content Include="app\images\A99E.jpg" />
     <Content Include="app\images\BallingMaskinerLogo.png" />
     <Content Include="app\images\BallingMaskinerLogoSmall.png" />
+    <Content Include="app\images\Balling_Maskiner_NYT_LOGO_fritlagt.png" />
     <Content Include="app\images\Carsten_Eskildsen.jpg" />
     <Content Include="app\images\Charlotte_Bruun.jpg" />
     <Content Include="app\images\D200z.jpg" />
@@ -186,6 +187,26 @@
     <Content Include="app\content\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="app\content\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="app\content\maskiner.json" />
+    <Content Include="app\content\prospects\D300_D500.pdf" />
+    <Content Include="app\content\prospects\F3_F5_Tysk.pdf" />
+    <Content Include="app\content\prospects\PS65_105_EN.pdf" />
+    <Content Include="app\content\prospects\a92.pdf" />
+    <Content Include="app\content\prospects\D800Z.pdf" />
+    <Content Include="app\content\prospects\EDNC6.pdf" />
+    <Content Include="app\content\prospects\F8-9.pdf" />
+    <Content Include="app\content\prospects\iQ300.pdf" />
+    <Content Include="app\content\prospects\U86.pdf" />
+    <Content Include="app\content\prospects\V22.pdf" />
+    <Content Include="app\content\prospects\V33i.pdf" />
+    <Content Include="app\content\prospects\V56i_EN.pdf" />
+    <Content Include="app\content\prospects\D200Z.pdf" />
+    <Content Include="app\content\prospects\a51NX-a61NX.pdf" />
+    <Content Include="app\content\prospects\a71NX_a81NX.pdf" />
+    <Content Include="app\content\prospects\UPV3_UPV5.pdf" />
+    <Content Include="app\content\prospects\EDAF_2_3.pdf" />
+    <Content Include="app\content\prospects\EDNC_Serie.pdf" />
+    <Content Include="app\content\prospects\U6_EN.pdf" />
+    <Content Include="app\content\prospects\U_Series.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
