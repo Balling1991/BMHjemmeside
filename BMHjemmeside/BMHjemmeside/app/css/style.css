@@ -235,7 +235,7 @@
 
     @media (max-width: 991px) {
         #menuLogo {
-            content: url("../images/BallingMaskinerLogoSmall.png");
+            content: url("../images/Balling_Maskiner_NYT_LOGO_fritlagt.png");
             height: 45px;
             margin-top: 3px;
             width: unset;
@@ -247,6 +247,13 @@
             width: 100%;
         }
     }
+
+    @media (min-width: 768px) and (max-width: 991px){
+        .thumbnail > img {
+            float: left;
+        }
+    }
+
     /* MENU */
     #menuLogo {
     display: block;

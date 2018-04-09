@@ -44,6 +44,7 @@ var initPage = function () {
     $("a.menu").removeClass("active");
     $(".home").removeClass("home");
     $(".navbar").removeClass("transparent-menu");
+    $(".navbar-collapse").removeClass("in");
     var page = (window.location.hash).slice(2);
     $("#" + page).addClass("active");
 }
