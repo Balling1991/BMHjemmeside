@@ -280,94 +280,94 @@
         "models": [
           {
             "name": "UniSpeed 2000",
-            "path": "",
+            "path": "app/images/US2000.jpg",
             "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "prospect": "app/content/prospects/SHW_UniSpeed.pdf",
+            "info": "https://www.shw-wm.de/en/machining-centers/unispeed-2000"
           },
           {
             "name": "UniSpeed 3000",
-            "path": "",
+            "path": "app/images/US3000.jpg",
             "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "prospect": "app/content/prospects/SHW_UniSpeed.pdf",
+            "info": "https://www.shw-wm.de/en/machining-centers/unispeed-3000"
           },
           {
             "name": "UniSpeed 6000",
-            "path": "",
+            "path": "app/images/US6000.jpg",
             "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "prospect": "app/content/prospects/SHW_UniSpeed.pdf",
+            "info": "https://www.shw-wm.de/en/machining-centers/unispeed-6000"
           },
           {
             "name": "TightBlock 6000",
-            "path": "",
+            "path": "app/images/TB6000.jpg",
             "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "prospect": "app/content/prospects/SHW_UniSpeed.pdf",
+            "info": "https://www.shw-wm.de/en/machining-centers/tightblock-6000"
           },
           {
             "name": "TightBlock 8000",
-            "path": "",
+            "path": "app/images/TB8000.jpg",
             "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "prospect": "app/content/prospects/SHW_UniSpeed.pdf",
+            "info": "https://www.shw-wm.de/en/machining-centers/tightblock-8000"
           },
           {
             "name": "PowerSpeed 2000",
-            "path": "",
+            "path": "app/images/PS2000.jpg",
             "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "prospect": "app/content/prospects/SHW_PowerSpeed_UniForce_PowerForce.pdf",
+            "info": "https://www.shw-wm.de/en/travelling-column-machines/powerspeed-2000"
           },
           {
             "name": "PowerSpeed 3000",
-            "path": "",
+            "path": "app/images/PS3000.jpg",
             "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "prospect": "app/content/prospects/SHW_PowerSpeed_UniForce_PowerForce.pdf",
+            "info": "https://www.shw-wm.de/en/travelling-column-machines/powerspeed-3000"
           },
           {
             "name": "PowerSpeed 4000",
             "path": "",
             "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "prospect": "app/content/prospects/SHW_PowerSpeed_UniForce_PowerForce.pdf",
+            "info": "https://www.shw-wm.de/en/travelling-column-machines/powerspeed-4000"
           },
           {
             "name": "UniForce 4000",
-            "path": "",
+            "path": "app/images/UF4000.jpg",
             "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "prospect": "app/content/prospects/SHW_PowerSpeed_UniForce_PowerForce.pdf",
+            "info": "https://www.shw-wm.de/en/travelling-column-machines/uniforce-4000"
           },
           {
             "name": "UniForce 7000",
-            "path": "",
+            "path": "app/images/UF7000.jpg",
             "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "prospect": "app/content/prospects/SHW_PowerSpeed_UniForce_PowerForce.pdf",
+            "info": "https://www.shw-wm.de/en/travelling-column-machines/uniforce-7000"
           },
           {
-            "name": "UniForce 8000",
-            "path": "",
+            "name": "PowerForce 8000",
+            "path": "app/images/PF8000.jpg",
             "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "prospect": "app/content/prospects/SHW_PowerSpeed_UniForce_PowerForce.pdf",
+            "info": "https://www.shw-wm.de/en/travelling-column-machines/powerforce-8000"
           },
           {
             "name": "PowerBridge 5000 LG",
             "path": "",
             "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "prospect": "app/content/prospects/SHW_PowerBridge.pdf",
+            "info": "https://www.shw-wm.de/en/gantry-machines/powerbridge-5000-lg"
           },
           {
             "name": "PowerBridge 5000 HG",
-            "path": "",
+            "path": "app/images/PB5000HG.jpg",
             "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "prospect": "app/content/prospects/SHW_PowerBridge.pdf",
+            "info": "https://www.shw-wm.de/en/gantry-machines/powerbridge-5000-hg"
           }
         ]
       }
@@ -506,178 +506,178 @@
         "models": [
           {
             "name": "BG 1000-T",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/BG_ELB.png",
+            "description": "<p>The BG handles the grinding of flat and round broaches with ease. It finds its place mainly in the automotive and aerospace industries. Design and programming of the BG is based on many years of design and manufacturing experience in the tool industry. The BG signifies not only a machine concept but also a complete technology package consisting of machine and competence in tool manufacturing.</p><p>The BG 1000 / 2000-T models are very compact traveling table machines for the grinding of broaches up to 200 mm diameter. They are designed to grind straight and helical teeth with very stable grinding behavior</p><p>The BG 2000 / 3000-C models are based on the moving column principle and display very consistent machining even on very heavy work pieces. They are designed for broaches up to 600 mm diameter. The distinguishing characteristics are profile precision, maintaining center and ease of use. Grinding of inner features is available as an option.</p>",
+            "prospect": "app/content/prospects/BG_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/bg.html"
           },
           {
             "name": "BG 2000-T",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/BG_ELB.png",
+            "description": "<p>The BG handles the grinding of flat and round broaches with ease. It finds its place mainly in the automotive and aerospace industries. Design and programming of the BG is based on many years of design and manufacturing experience in the tool industry. The BG signifies not only a machine concept but also a complete technology package consisting of machine and competence in tool manufacturing.</p><p>The BG 1000 / 2000-T models are very compact traveling table machines for the grinding of broaches up to 200 mm diameter. They are designed to grind straight and helical teeth with very stable grinding behavior</p><p>The BG 2000 / 3000-C models are based on the moving column principle and display very consistent machining even on very heavy work pieces. They are designed for broaches up to 600 mm diameter. The distinguishing characteristics are profile precision, maintaining center and ease of use. Grinding of inner features is available as an option.</p>",
+            "prospect": "app/content/prospects/BG_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/bg.html"
           },
           {
             "name": "BG 2000-C",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/BG_ELB.png",
+            "description": "<p>The BG handles the grinding of flat and round broaches with ease. It finds its place mainly in the automotive and aerospace industries. Design and programming of the BG is based on many years of design and manufacturing experience in the tool industry. The BG signifies not only a machine concept but also a complete technology package consisting of machine and competence in tool manufacturing.</p><p>The BG 1000 / 2000-T models are very compact traveling table machines for the grinding of broaches up to 200 mm diameter. They are designed to grind straight and helical teeth with very stable grinding behavior</p><p>The BG 2000 / 3000-C models are based on the moving column principle and display very consistent machining even on very heavy work pieces. They are designed for broaches up to 600 mm diameter. The distinguishing characteristics are profile precision, maintaining center and ease of use. Grinding of inner features is available as an option.</p>",
+            "prospect": "app/content/prospects/BG_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/bg.html"
           },
           {
             "name": "BG 3000-C",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/BG_ELB.png",
+            "description": "<p>The BG handles the grinding of flat and round broaches with ease. It finds its place mainly in the automotive and aerospace industries. Design and programming of the BG is based on many years of design and manufacturing experience in the tool industry. The BG signifies not only a machine concept but also a complete technology package consisting of machine and competence in tool manufacturing.</p><p>The BG 1000 / 2000-T models are very compact traveling table machines for the grinding of broaches up to 200 mm diameter. They are designed to grind straight and helical teeth with very stable grinding behavior</p><p>The BG 2000 / 3000-C models are based on the moving column principle and display very consistent machining even on very heavy work pieces. They are designed for broaches up to 600 mm diameter. The distinguishing characteristics are profile precision, maintaining center and ease of use. Grinding of inner features is available as an option.</p>",
+            "prospect": "app/content/prospects/BG_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/bg.html"
           },
           {
             "name": "BGS 2000S-T",
-            "path": "",
-            "description": "",
+            "path": "app/images/BGS_2000S-T.png",
+            "description": "<p>The BG handles the grinding of flat and round broaches with ease. It finds its place mainly in the automotive and aerospace industries. Design and programming of the BG is based on many years of design and manufacturing experience in the tool industry. The BG signifies not only a machine concept but also a complete technology package consisting of machine and competence in tool manufacturing.</p><p>The BG 1000 / 2000-T models are very compact traveling table machines for the grinding of broaches up to 200 mm diameter. They are designed to grind straight and helical teeth with very stable grinding behavior</p><p>The BG 2000 / 3000-C models are based on the moving column principle and display very consistent machining even on very heavy work pieces. They are designed for broaches up to 600 mm diameter. The distinguishing characteristics are profile precision, maintaining center and ease of use. Grinding of inner features is available as an option.</p>",
             "prospect": "app/content/prospects/",
-            "info": ""
+            "info": "http://www.elb-schliff.de/product-details/alias/bgs.html"
           },
           {
             "name": "BGS 2000H-T",
-            "path": "",
-            "description": "",
+            "path": "app/images/BGS_2000S-T.png",
+            "description": "<p>The BG handles the grinding of flat and round broaches with ease. It finds its place mainly in the automotive and aerospace industries. Design and programming of the BG is based on many years of design and manufacturing experience in the tool industry. The BG signifies not only a machine concept but also a complete technology package consisting of machine and competence in tool manufacturing.</p><p>The BG 1000 / 2000-T models are very compact traveling table machines for the grinding of broaches up to 200 mm diameter. They are designed to grind straight and helical teeth with very stable grinding behavior</p><p>The BG 2000 / 3000-C models are based on the moving column principle and display very consistent machining even on very heavy work pieces. They are designed for broaches up to 600 mm diameter. The distinguishing characteristics are profile precision, maintaining center and ease of use. Grinding of inner features is available as an option.</p>",
             "prospect": "app/content/prospects/",
-            "info": ""
+            "info": "http://www.elb-schliff.de/product-details/alias/bgs.html"
           },
           {
             "name": "ecoLine 1000",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/ecoLine.png",
+            "description": "<p>The ecoLine-Linear Model surface and profile grinding machines are comprised of a single steel base design. The longitudinal linear motor drive table is its defining characteristic. Since 1999, hundreds of these travelling table machines have been delivered and are well established in the market.</p><p>The compact, steel base designed ecoLine model is equipped with linear guides in all three axes. The Y- and Z-axes are driven by servo motors and ball screws (KGT) while the longitudinal X-axis table is powered via direct drive linear motor. The standard 11kW grinding spindle can be upgraded up to 26kW. The standard partial enclosure allows for easy monitoring of the grinding process. A wide variety of available options provide customization capabilities for specific requirements.</p>",
+            "prospect": "app/content/prospects/ecoLine_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/ecoline.html"
           },
           {
             "name": "ecoLine 1500",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/ecoLine.png",
+            "description": "<p>The ecoLine-Linear Model surface and profile grinding machines are comprised of a single steel base design. The longitudinal linear motor drive table is its defining characteristic. Since 1999, hundreds of these travelling table machines have been delivered and are well established in the market.</p><p>The compact, steel base designed ecoLine model is equipped with linear guides in all three axes. The Y- and Z-axes are driven by servo motors and ball screws (KGT) while the longitudinal X-axis table is powered via direct drive linear motor. The standard 11kW grinding spindle can be upgraded up to 26kW. The standard partial enclosure allows for easy monitoring of the grinding process. A wide variety of available options provide customization capabilities for specific requirements.</p>",
+            "prospect": "app/content/prospects/ecoLine_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/ecoline.html"
           },
           {
             "name": "ecoLine 2000",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/ecoLine.png",
+            "description": "<p>The ecoLine-Linear Model surface and profile grinding machines are comprised of a single steel base design. The longitudinal linear motor drive table is its defining characteristic. Since 1999, hundreds of these travelling table machines have been delivered and are well established in the market.</p><p>The compact, steel base designed ecoLine model is equipped with linear guides in all three axes. The Y- and Z-axes are driven by servo motors and ball screws (KGT) while the longitudinal X-axis table is powered via direct drive linear motor. The standard 11kW grinding spindle can be upgraded up to 26kW. The standard partial enclosure allows for easy monitoring of the grinding process. A wide variety of available options provide customization capabilities for specific requirements.</p>",
+            "prospect": "app/content/prospects/ecoLine_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/ecoline.html"
           },
           {
             "name": "gantryLine 20",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/gantryLine.png",
+            "description": "<p>Completely manufactured in Aschaffenburg, Germany, our gantryLine models can process large, wide and heavy work pieces up to lengths of 5,000 mm and widths up to 2,000 mm with high precision. Special designs are also available to process wider and longer work pieces.</p><p>This machine line with its variety of available features is suitable for surface grinding applications all the way through complex CNC manufacturing cells.</p><p>The sturdy gantry-style machine design features a modern vibration-free mechanical table drive, linear guideways in all axes, an over-sized spindle drive as well as ball screws and linear scales in vertical and cross axes. These features guarantee that today’s expectations in the precision machining of large surfaces are met for rough machining and high precision machining as well. The gantryLine achieves highest work piece precision and surface quality.</p><p>The mechanical table drive consists of a rack-and-pinion gear (helical planetary gear system with precision rack). This modern drive system is most suitable for reliable movement of heavy loads and long strokes. Its main characteristics are optimal acceleration and velocity profile. In conjunction with the CNC package this drive is able to perform controlled X-axis movement and interpolation with Y-axis.</p>",
+            "prospect": "app/content/prospects/gantryLine_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/gantryline.html"
           },
           {
             "name": "gantryLine 22",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/gantryLine.png",
+            "description": "<p>Completely manufactured in Aschaffenburg, Germany, our gantryLine models can process large, wide and heavy work pieces up to lengths of 5,000 mm and widths up to 2,000 mm with high precision. Special designs are also available to process wider and longer work pieces.</p><p>This machine line with its variety of available features is suitable for surface grinding applications all the way through complex CNC manufacturing cells.</p><p>The sturdy gantry-style machine design features a modern vibration-free mechanical table drive, linear guideways in all axes, an over-sized spindle drive as well as ball screws and linear scales in vertical and cross axes. These features guarantee that today’s expectations in the precision machining of large surfaces are met for rough machining and high precision machining as well. The gantryLine achieves highest work piece precision and surface quality.</p><p>The mechanical table drive consists of a rack-and-pinion gear (helical planetary gear system with precision rack). This modern drive system is most suitable for reliable movement of heavy loads and long strokes. Its main characteristics are optimal acceleration and velocity profile. In conjunction with the CNC package this drive is able to perform controlled X-axis movement and interpolation with Y-axis.</p>",
+            "prospect": "app/content/prospects/gantryLine_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/gantryline.html"
           },
           {
             "name": "gantryLine 30",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/gantryLine.png",
+            "description": "<p>Completely manufactured in Aschaffenburg, Germany, our gantryLine models can process large, wide and heavy work pieces up to lengths of 5,000 mm and widths up to 2,000 mm with high precision. Special designs are also available to process wider and longer work pieces.</p><p>This machine line with its variety of available features is suitable for surface grinding applications all the way through complex CNC manufacturing cells.</p><p>The sturdy gantry-style machine design features a modern vibration-free mechanical table drive, linear guideways in all axes, an over-sized spindle drive as well as ball screws and linear scales in vertical and cross axes. These features guarantee that today’s expectations in the precision machining of large surfaces are met for rough machining and high precision machining as well. The gantryLine achieves highest work piece precision and surface quality.</p><p>The mechanical table drive consists of a rack-and-pinion gear (helical planetary gear system with precision rack). This modern drive system is most suitable for reliable movement of heavy loads and long strokes. Its main characteristics are optimal acceleration and velocity profile. In conjunction with the CNC package this drive is able to perform controlled X-axis movement and interpolation with Y-axis.</p>",
+            "prospect": "app/content/prospects/gantryLine_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/gantryline.html"
           },
           {
             "name": "gantryLine 40",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/gantryLine.png",
+            "description": "<p>Completely manufactured in Aschaffenburg, Germany, our gantryLine models can process large, wide and heavy work pieces up to lengths of 5,000 mm and widths up to 2,000 mm with high precision. Special designs are also available to process wider and longer work pieces.</p><p>This machine line with its variety of available features is suitable for surface grinding applications all the way through complex CNC manufacturing cells.</p><p>The sturdy gantry-style machine design features a modern vibration-free mechanical table drive, linear guideways in all axes, an over-sized spindle drive as well as ball screws and linear scales in vertical and cross axes. These features guarantee that today’s expectations in the precision machining of large surfaces are met for rough machining and high precision machining as well. The gantryLine achieves highest work piece precision and surface quality.</p><p>The mechanical table drive consists of a rack-and-pinion gear (helical planetary gear system with precision rack). This modern drive system is most suitable for reliable movement of heavy loads and long strokes. Its main characteristics are optimal acceleration and velocity profile. In conjunction with the CNC package this drive is able to perform controlled X-axis movement and interpolation with Y-axis.</p>",
+            "prospect": "app/content/prospects/gantryLine_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/gantryline.html"
           },
           {
             "name": "gantryLine 50",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/gantryLine.png",
+            "description": "<p>Completely manufactured in Aschaffenburg, Germany, our gantryLine models can process large, wide and heavy work pieces up to lengths of 5,000 mm and widths up to 2,000 mm with high precision. Special designs are also available to process wider and longer work pieces.</p><p>This machine line with its variety of available features is suitable for surface grinding applications all the way through complex CNC manufacturing cells.</p><p>The sturdy gantry-style machine design features a modern vibration-free mechanical table drive, linear guideways in all axes, an over-sized spindle drive as well as ball screws and linear scales in vertical and cross axes. These features guarantee that today’s expectations in the precision machining of large surfaces are met for rough machining and high precision machining as well. The gantryLine achieves highest work piece precision and surface quality.</p><p>The mechanical table drive consists of a rack-and-pinion gear (helical planetary gear system with precision rack). This modern drive system is most suitable for reliable movement of heavy loads and long strokes. Its main characteristics are optimal acceleration and velocity profile. In conjunction with the CNC package this drive is able to perform controlled X-axis movement and interpolation with Y-axis.</p>",
+            "prospect": "app/content/prospects/gantryLine_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/gantryline.html"
           },
           {
             "name": "microCut 250 S",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/microCut.png",
+            "description": "<p>The microCut model was specifically designed to meet the requirements of profile and creep-feed grinding applications. The modular traveling column design offers a small foot print which can be easily configured into economical production cells frequently used in the turbine industry.</p><p>This machine is available in compact standard sizes but special designs with spindle power up to 52 kW are also feasible.</p><p>The integration into production lines is achieved through automatic material handling and tool changes. A common solution to reduce non-productive time is to equip the microCut with an index table to allow loading and unloading during machining times.</p><p>For high-precision applications, dressing of the grinding wheel can be done on the table with a roll dressing unit or via interpolation of feed and cross axes. For high-production grinding, head mounted roll dressing units for intermittent or continuous use are available. For complex grinding tasks, dual head mounted dressing units and tool changers are being used. The microCut is frequently used with Corundum, CBN and diamond grinding wheels.</p><p>A trunnion table can be mounted on the machine table to allow the processing of multiple sides of a work piece. With the Sinumerik 840D sl CNC control the microCut can grind complex shapes by interpolating multiple axes. Proven ELB programming templates are available for most grinding applications. We have application engineers and programmers on staff for every grinding task.</p>",
+            "prospect": "app/content/prospects/microCut_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/mircocut.html"
           },
           {
             "name": "microCut 300",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/microCut.png",
+            "description": "<p>The microCut model was specifically designed to meet the requirements of profile and creep-feed grinding applications. The modular traveling column design offers a small foot print which can be easily configured into economical production cells frequently used in the turbine industry.</p><p>This machine is available in compact standard sizes but special designs with spindle power up to 52 kW are also feasible.</p><p>The integration into production lines is achieved through automatic material handling and tool changes. A common solution to reduce non-productive time is to equip the microCut with an index table to allow loading and unloading during machining times.</p><p>For high-precision applications, dressing of the grinding wheel can be done on the table with a roll dressing unit or via interpolation of feed and cross axes. For high-production grinding, head mounted roll dressing units for intermittent or continuous use are available. For complex grinding tasks, dual head mounted dressing units and tool changers are being used. The microCut is frequently used with Corundum, CBN and diamond grinding wheels.</p><p>A trunnion table can be mounted on the machine table to allow the processing of multiple sides of a work piece. With the Sinumerik 840D sl CNC control the microCut can grind complex shapes by interpolating multiple axes. Proven ELB programming templates are available for most grinding applications. We have application engineers and programmers on staff for every grinding task.</p>",
+            "prospect": "app/content/prospects/microCut_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/mircocut.html"
           },
           {
             "name": "microCut 520",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/microCut.png",
+            "description": "<p>The microCut model was specifically designed to meet the requirements of profile and creep-feed grinding applications. The modular traveling column design offers a small foot print which can be easily configured into economical production cells frequently used in the turbine industry.</p><p>This machine is available in compact standard sizes but special designs with spindle power up to 52 kW are also feasible.</p><p>The integration into production lines is achieved through automatic material handling and tool changes. A common solution to reduce non-productive time is to equip the microCut with an index table to allow loading and unloading during machining times.</p><p>For high-precision applications, dressing of the grinding wheel can be done on the table with a roll dressing unit or via interpolation of feed and cross axes. For high-production grinding, head mounted roll dressing units for intermittent or continuous use are available. For complex grinding tasks, dual head mounted dressing units and tool changers are being used. The microCut is frequently used with Corundum, CBN and diamond grinding wheels.</p><p>A trunnion table can be mounted on the machine table to allow the processing of multiple sides of a work piece. With the Sinumerik 840D sl CNC control the microCut can grind complex shapes by interpolating multiple axes. Proven ELB programming templates are available for most grinding applications. We have application engineers and programmers on staff for every grinding task.</p>",
+            "prospect": "app/content/prospects/microCut_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/mircocut.html"
           },
           {
             "name": "millGrind ",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/millGrind.png",
+            "description": "<p>The millGrind series is specially developed for the requirements of machining in the turbine industry as multiple technology solution in one set-up. The modular machine system in travelling table design allows an individual configuration of the machine according to the customers needs.</p><p>Automatic tool and diamond roll changing allows the machining via</p><ul><li>Grinding, Al-Oxide, CBN and Diamond Grinding Wheels</li><li>Boring</li><li>Milling</li><li>Laser Cladding</li><li>Measuring of the unfinished workpiece</li><li>Measuring of the machine workpiece including rework</li></ul><p>in one set-up. This guarantees that all machined surfaces run to each other and errors are avoided by repeated re-chucking.</p>",
+            "prospect": "app/content/prospects/millGrind_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/millGrind.html"
           },
           {
             "name": "openLine 6",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/openLine.png",
+            "description": "<p>The concept of the openLine follows the ELB-principle of absolute separation of the three machine axes. This principle has been proven a thousand times over and makes this machine perfectly suitable for prototype and small volume production. Highest geometrical precision and an attractive price makes this machine line so appealing. This machine is completely manufactured in Germany and meets the highest quality standards. Quick and uncomplicated manual grinding (adjusting and fitting) is as easy as finish grinding in automatic mode. The complete features of the basic machine as well as the ELB-technology proven over the past 50+ years make the purchase of an openLine machine a very economical investment.</p><p>The basic openLine machine is fully equipped with everything required to grind. A coolant filtration unit with a capacity of 80 l/min, flushing system with table rinse hose to clear the work area, a wheel flange, a grinding wheel, an electro-magnetic chuck for work piece clamping and all required media are included.</p><p>Optionally, this model can be equipped for simple profile grinding tasks.</p>",
+            "prospect": "app/content/prospects/openLine_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/openline.html"
           },
           {
             "name": "openLine E 6",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/openLine.png",
+            "description": "<p>The concept of the openLine follows the ELB-principle of absolute separation of the three machine axes. This principle has been proven a thousand times over and makes this machine perfectly suitable for prototype and small volume production. Highest geometrical precision and an attractive price makes this machine line so appealing. This machine is completely manufactured in Germany and meets the highest quality standards. Quick and uncomplicated manual grinding (adjusting and fitting) is as easy as finish grinding in automatic mode. The complete features of the basic machine as well as the ELB-technology proven over the past 50+ years make the purchase of an openLine machine a very economical investment.</p><p>The basic openLine machine is fully equipped with everything required to grind. A coolant filtration unit with a capacity of 80 l/min, flushing system with table rinse hose to clear the work area, a wheel flange, a grinding wheel, an electro-magnetic chuck for work piece clamping and all required media are included.</p><p>Optionally, this model can be equipped for simple profile grinding tasks.</p>",
+            "prospect": "app/content/prospects/openLine_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/openline.html"
           },
           {
             "name": "openLine 10",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/openLine.png",
+            "description": "<p>The concept of the openLine follows the ELB-principle of absolute separation of the three machine axes. This principle has been proven a thousand times over and makes this machine perfectly suitable for prototype and small volume production. Highest geometrical precision and an attractive price makes this machine line so appealing. This machine is completely manufactured in Germany and meets the highest quality standards. Quick and uncomplicated manual grinding (adjusting and fitting) is as easy as finish grinding in automatic mode. The complete features of the basic machine as well as the ELB-technology proven over the past 50+ years make the purchase of an openLine machine a very economical investment.</p><p>The basic openLine machine is fully equipped with everything required to grind. A coolant filtration unit with a capacity of 80 l/min, flushing system with table rinse hose to clear the work area, a wheel flange, a grinding wheel, an electro-magnetic chuck for work piece clamping and all required media are included.</p><p>Optionally, this model can be equipped for simple profile grinding tasks.</p>",
+            "prospect": "app/content/prospects/openLine_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/openline.html"
           },
           {
             "name": "openLine E 10",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/openLine.png",
+            "description": "<p>The concept of the openLine follows the ELB-principle of absolute separation of the three machine axes. This principle has been proven a thousand times over and makes this machine perfectly suitable for prototype and small volume production. Highest geometrical precision and an attractive price makes this machine line so appealing. This machine is completely manufactured in Germany and meets the highest quality standards. Quick and uncomplicated manual grinding (adjusting and fitting) is as easy as finish grinding in automatic mode. The complete features of the basic machine as well as the ELB-technology proven over the past 50+ years make the purchase of an openLine machine a very economical investment.</p><p>The basic openLine machine is fully equipped with everything required to grind. A coolant filtration unit with a capacity of 80 l/min, flushing system with table rinse hose to clear the work area, a wheel flange, a grinding wheel, an electro-magnetic chuck for work piece clamping and all required media are included.</p><p>Optionally, this model can be equipped for simple profile grinding tasks.</p>",
+            "prospect": "app/content/prospects/openLine_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/openline.html"
           },
           {
             "name": "smartLine Basic N",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/smartLineBasic.png",
+            "description": "<p>The smartLine covers the entire spectrum of travelling table grinding machines. From simple reciprocation surface grinding through speed-stroke, slot and profile grinding all the way to creep-feed grinding. This machine concept solves every grinding task. The machine‘s versatile building block system is designed to allow almost any combination of components to solve your specific grinding task.</p><p>There are three pre-defined base sizes for simple surface grinding applications. These smartLine Basic machines come with a hydraulic table drive, are fully equipped and are ready to grind. These basic configurations can always be customized with different table drive systems, guide technologies and controls packages. Options and auxiliary equipment provide complete customization possibilities.</p>",
+            "prospect": "app/content/prospects/smartLineBasic_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/smartline-basic.html"
           },
           {
             "name": "smartLine Basic BD",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/smartLineBasic.png",
+            "description": "<p>The smartLine covers the entire spectrum of travelling table grinding machines. From simple reciprocation surface grinding through speed-stroke, slot and profile grinding all the way to creep-feed grinding. This machine concept solves every grinding task. The machine‘s versatile building block system is designed to allow almost any combination of components to solve your specific grinding task.</p><p>There are three pre-defined base sizes for simple surface grinding applications. These smartLine Basic machines come with a hydraulic table drive, are fully equipped and are ready to grind. These basic configurations can always be customized with different table drive systems, guide technologies and controls packages. Options and auxiliary equipment provide complete customization possibilities.</p>",
+            "prospect": "app/content/prospects/smartLineBasic_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/smartline-basic.html"
           },
           {
             "name": "smartLine Basic BL",
-            "path": "",
-            "description": "",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "path": "app/images/smartLineBasic.png",
+            "description": "<p>The smartLine covers the entire spectrum of travelling table grinding machines. From simple reciprocation surface grinding through speed-stroke, slot and profile grinding all the way to creep-feed grinding. This machine concept solves every grinding task. The machine‘s versatile building block system is designed to allow almost any combination of components to solve your specific grinding task.</p><p>There are three pre-defined base sizes for simple surface grinding applications. These smartLine Basic machines come with a hydraulic table drive, are fully equipped and are ready to grind. These basic configurations can always be customized with different table drive systems, guide technologies and controls packages. Options and auxiliary equipment provide complete customization possibilities.</p>",
+            "prospect": "app/content/prospects/smartLineBasic_ELB_EN.pdf",
+            "info": "http://www.elb-schliff.de/product-details/alias/smartline-basic.html"
           }
         ]
       }
