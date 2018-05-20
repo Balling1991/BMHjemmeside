@@ -7,30 +7,30 @@
         "models": [
           {
             "name": "DA300",
-            "path": "wwwroot/app/images/DA300.jpg",
+            "path": "app/images/DA300.jpg",
             "description": "<p>The DA300 is inspired by the best design characteristics from both vertical and horizontal machine platforms to deliver the highest productive capabilities for multi – axis workpieces in the very smallest of machine footprints. These features make the DA300 ideal for single set – up, multi – side accessibility, or full contouring capability to quickly and efficiently tackle a wide variety of complex production part applications – typical of industrial hydraulic & pneumatics elements, optical, electrical & semiconductor markets, medical & dental products, die – cast parts, automotive components, aircraft and aerospace parts as well as contract job – shop work.</p>",
-            "prospect": "wwwroot/app/content/prospects/D300_D500.pdf",
+            "prospect": "app/content/prospects/D300_D500.pdf",
             "info": "https://www.makino.com/vertical-machining-centers-5-axis/d300/"
           },
           {
             "name": "PS65",
-            "path": "wwwroot/app/images/PS65.jpg",
+            "path": "app/images/PS65.jpg",
             "description": "<p>The PS65 CNC vertical machining center is setting a new standard in the production machining arena. By design, the PS65 and PS95 machines offer a unique blend of power, speed, precision, efficiency, flexibility and productivity. The PS-Series machines design incorporates a heavy cast iron construction for stiffness, rigidity and precision.  This CNC vertical machining center also includes core-cooled ballscrews and temperature control for precision and linear guideways for speed and performance.</p>",
-            "prospect": "wwwroot/app/content/prospects/PS65_105_EN.pdf",
+            "prospect": "app/content/prospects/PS65_105_EN.pdf",
             "info": "https://www.makino.com/vertical-machining-centers/ps65/"
           },
           {
             "name": "PS105",
-            "path": "wwwroot/app/images/PS105.jpg",
+            "path": "app/images/PS105.jpg",
             "description": "<p>Advanced technologies and increased capacity drive new levels of productivity for job-shop production environments.  Building on its highly successful PS-Series product line, Makino introduces the next-generation PS65 and PS105 vertical machining centers. Both models feature enhanced design characteristics and next-generation technologies that expand upon the capabilities of their predecessors. With an ideal blend of power, accuracy, speed and reliability, the PS65 and PS105 are redefining the standard for vertical machining center productivity within the aerospace, medical, automotive and general manufacturing industries.</p>",
-            "prospect": "wwwroot/app/content/prospects/PS65_105_EN.pdf",
+            "prospect": "app/content/prospects/PS65_105_EN.pdf",
             "info": "https://www.makino.com/vertical-machining-centers/ps105/"
           },
           {
             "name": "F3",
-            "path": "wwwroot/app/images/F3.jpg",
+            "path": "app/images/F3.jpg",
             "description": "<p>The new F3 vertical machining center is designed to provide stiffness and rigidity for chatter-free cutting, agility for high-speed, hard milling and accuracies for tight-tolerance blends and matches typical of complex, 3-D contoured geometry associated with traditional die mold machining and medical production.</p>",
-            "prospect": "wwwroot/app/content/prospects/F3_F5_Tysk.pdf",
+            "prospect": "app/content/prospects/F3_F5_Tysk.pdf",
             "info": "https://www.makino.com/vertical-machining-centers/f3/"
           },
           {
