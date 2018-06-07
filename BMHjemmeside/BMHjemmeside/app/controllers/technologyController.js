@@ -5,7 +5,7 @@
     $scope.showmodel = false;
     $scope.showbrand = false;
 
-    $http.get('../wwwroot/app/content/maskiner.json')
+    $http.get('../app/content/maskiner.json')
         .then(function (result) {
             $scope.teknologier = result.data;
         });
@@ -14,4 +14,8 @@
         $scope.modelToRender = model;
         $scope.trustedDescription = $sce.trustAsHtml($scope.modelToRender.description);
     };
+
+    $scope.checkForProspect = function (prospect) {
+        return prospect.endsWith(".pdf");
+    }
 });

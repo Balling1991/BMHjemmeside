@@ -35,164 +35,164 @@
           },
           {
             "name": "F5",
-            "path": "wwwroot/app/images/F5.jpg",
+            "path": "app/images/F5.jpg",
             "description": "<p>The F5 vertical machining center is designed to provide stiffness and rigidity for chatter-free cutting, agility expected from a hard milling machine and accuracies for tight-tolerance blends and matches typical of complex, 3-D contoured geometry associated with die/mold and medical production.</p>",
-            "prospect": "wwwroot/app/content/prospects/F3_F5_Tysk.pdf",
+            "prospect": "app/content/prospects/F3_F5_Tysk.pdf",
             "info": "https://www.makino.com/vertical-machining-centers/f5/"
           },
           {
             "name": "F8",
             "path": "app/images/F8.jpg",
             "description": "<p>The F8 large, vertical machining center is designed to provide the power, speed, precision and versatility to handle large part machining applications as well as big die and mold components.  The F8 is designed to provide stiffness and rigidity for chatter-free, heavy cutting, roughing and finishing on the same machine, agility for high-speed / hard-milling and accuracies for tight-tolerance blends and matches typical of complex, 3-D contoured geometry associated with die/mold and medical production.  The unique machine design provides unparalleled access to ease setup and changeover reducing WIP and overall lead-time.</p>",
-            "prospect": "wwwroot/app/content/prospects/F8-9.pdf",
+            "prospect": "app/content/prospects/F8-9.pdf",
             "info": "https://www.makino.com/vertical-machining-centers/f8/"
 
           },
           {
             "name": "F9",
-            "path": "wwwroot/app/images/F9.jpg",
+            "path": "app/images/F9.jpg",
             "description": "<p>The F9 large, vertical machining center is designed to provide the power, speed, precision and versatility to attack both large production part applications as well as big die and mold components.  The F9 is designed to provide stiffness and rigidity for chatter-free, heavy cutting, roughing and finishing on the same machine, agility for high-speed / hard-milling and accuracies for tight-tolerance blends and matches typical of complex, 3-D contoured geometry associated with die/mold and medical production.  The unique machine design provides unparalleled access to ease setup and changeover reducing WIP and overall lead-time.</p>",
-            "prospect": "wwwroot/app/content/prospects/F8-9.pdf",
+            "prospect": "app/content/prospects/F8-9.pdf",
             "info": "https://www.makino.com/vertical-machining-centers/f9/"
           },
           {
             "name": "V22",
-            "path": "wwwroot/app/images/V22.jpg",
+            "path": "app/images/V22.jpg",
             "description": "<p>The V22 precision machining center is designed to eliminate vibration, rotational deflection and thermal distortion to ensure precision, accuracy, reliability and excellent stability. Designed to machine complex materials, including ceramics, intricate cores and cavities, the V22 precision machining center offers a standard 11.3-hp continuous 40,000-rpm spindle that is complemented by Makino’s patented core-cooling and under-race lubrication system. Machine construction features integrally casted slideways and no overhangs, providing excellent rigidity and dampening characteristics. The rapid traverse allows for fast cutting feeds, which boosts productivity by reducing out-of-cut time and increasing metal-removal rates.</p>",
-            "prospect": "wwwroot/app/content/prospects/V22.pdf",
+            "prospect": "app/content/prospects/V22.pdf",
             "info": "https://www.makino.com/vertical-machining-centers/v22/"
           },
           {
             "name": "V33i",
-            "path": "wwwroot/app/images/v33i.jpg",
+            "path": "app/images/v33i.jpg",
             "description": "<p>The V33i vertical machining center provides high-speed machining with superb accuracy,efficient chip removal and ease of operation. The spindle features Makino’s unique core-cooling and under-race lubrication system, minimizing thermal distortion at high spindle speeds. Integrated construction of the spindle and drive motor rotor reduces vibration during high-speed operation— just one more reason why the V33i is your ideal hard milling machine.</p>",
-            "prospect": "wwwroot/app/content/prospects/V33i.pdf",
+            "prospect": "app/content/prospects/V33i.pdf",
             "info": "https://www.makino.com/vertical-machining-centers/v33i/"
           },
           {
             "name": "V56i",
-            "path": "wwwroot/app/images/V56i.jpg",
+            "path": "app/images/V56i.jpg",
             "description": "<p>The V56i vertical machining center provides high-speed machining with superb accuracy, efficient chip removal and ease of operation for long cycle time die/mold parts. The machine is equipped with core-cooled ballscrews, support bearings and motor mounts as well as a core-cooled saddle design with Nano slideway to control machine thermal growth, providing sustained accuracy in long cycle time, complex geometry die/mold work. The spindle features Makino’s unique, patented, core-cooling and under-race lubrication system, minimizing thermal distortion at high spindle speeds. Integrated construction of the spindle and drive motor rotor reduces vibration during high-speed operation. The V56i’s optimum axis layout and machine construction give you superior performance in a compact package. The axis layout is designed with no overhangs to ensure outstanding accuracy over the full range of axis travel. Painstakingly polished to a precision finish, the guideways are integrated with the machine to provide superior accuracy and rigidity.</p>",
-            "prospect": "wwwroot/app/content/prospects/V56i_EN.pdf",
+            "prospect": "app/content/prospects/V56i_EN.pdf",
             "info": "https://www.makino.com/vertical-machining-centers/v56i/"
           },
           {
             "name": "V77 (40 Taper)",
-            "path": "wwwroot/app/images/V77.jpg",
+            "path": "app/images/V77.jpg",
             "description": "<p>The V77 vertical machining center has been specifically designed to minimize thermal distortion for part precision and enhance higher quality finishes on die/mold output. The V77 provides environmentally controlled machine accuracy enhancements, such as Makino’s patented core-cooled, under-race lubrication system, which minimizes spindle distortion and twin shield-style splash guards to reduce the effect of temperature change in the factory. Available with either a 40-taper, 20,000-rpm or a 50-taper, 12,000/18,000-rpm spindle, the V77 can rough and finish hardened steel cavities/cores far more efficiently than general-purpose machines. Rigid linear guides and twin ballscrews are adopted for the Y-axis for a workpiece up to 2.5 tons.</p>",
-            "prospect": "wwwroot/app/content/prospects/",
+            "prospect": "app/content/prospects/",
             "info": "https://www.makino.com/vertical-machining-centers/v77-40-taper/"
           },
           {
             "name": "V77 (50 Taper)",
-            "path": "wwwroot/app/images/V77.jpg",
+            "path": "app/images/V77.jpg",
             "description": "<p>The V77 vertical machining center has been specifically designed to minimize thermal distortion for part precision and enhance higher quality finishes on die/mold output. The V77 provides environmentally controlled machine accuracy enhancements, such as Makino’s patented core-cooled, under-race lubrication system, which minimizes spindle distortion and twin shield-style splash guards to reduce the effect of temperature change in the factory. Available with either a 40-taper, 20,000-rpm or a 50-taper, 12,000/18,000-rpm spindle, the V77 can rough and finish hardened steel cavities/cores far more efficiently than general-purpose machines. Rigid linear guides and twin ballscrews are adopted for the Y-axis for a workpiece up to 2.5 tons.</p>",
-            "prospect": "wwwroot/app/content/prospects/",
+            "prospect": "app/content/prospects/",
             "info": "https://www.makino.com/vertical-machining-centers/v77-50-taper/"
           },
           {
             "name": "V77L (40 Taper)",
-            "path": "wwwroot/app/images/V77L.jpg",
+            "path": "app/images/V77L.jpg",
             "description": "<p>The V77L vertical machining center has been specifically designed to minimize thermal distortion for part precision and enhance higher quality finishes on die/mold output. The V77L provides environmentally controlled machine accuracy enhancements, such as Makino’s patented core-cooled, under-race lubrication system, which minimizes spindle distortion and twin shield-style splash guards to reduce the effect of temperature change in the factory. Available with either a 40-taper, 20,000 rpm or a 50-taper, 12,000/18,000-rpm spindle, the V77L can rough and finish hardened steel cavities/cores far more efficiently than general-purpose machines. Rigid linear guides and twin ballscrews are adopted for the Y-axis for a workpiece up to 2.5 tons.</p>",
-            "prospect": "wwwroot/app/content/prospects/",
+            "prospect": "app/content/prospects/",
             "info": "https://www.makino.com/vertical-machining-centers/v77l-40-taper/"
           },
           {
             "name": "V77L (50 Taper)",
-            "path": "wwwroot/app/images/V77L.jpg",
+            "path": "app/images/V77L.jpg",
             "description": "<p>The V77L vertical machining center has been specifically designed to minimize thermal distortion for part precision and enhance higher quality finishes on die/mold output. The V77L provides environmentally controlled machine accuracy enhancements, such as Makino’s patented core-cooled, under-race lubrication system, which minimizes spindle distortion and twin shield-style splash guards to reduce the effect of temperature change in the factory. Available with either a 40-taper, 20,000 rpm or a 50-taper, 12,000/18,000-rpm spindle, the V77L can rough and finish hardened steel cavities/cores far more efficiently than general-purpose machines. Rigid linear guides and twin ballscrews are adopted for the Y-axis for a workpiece up to 2.5 tons.</p>",
-            "prospect": "wwwroot/app/content/prospects/",
+            "prospect": "app/content/prospects/",
             "info": "https://www.makino.com/vertical-machining-centers/v77l-50-taper/"
           },
           {
             "name": "V99 (40 Taper)",
-            "path": "wwwroot/app/images/V99.jpg",
+            "path": "app/images/V99.jpg",
             "description": "<p>The V99 vertical machining center has been specifically designed to minimize thermal distortion for part precision and enhance higher quality finishes on die/mold output. The V99 provides environmentally controlled machine accuracy enhancements, such as Makino’s patented core-cooled, under-race lubrication system that minimizes spindle distortion and twin shield-style splash guards to reduce the effect of temperature change in the factory. Available with either a 40-taper, 20,000-rpm or a 50-taper, 12,000/18,000-rpm spindle, the V99 can rough and finish hardened steel cavities/cores far more efficiently than general-purpose machines. Rigid linear guides and twin ballscrews are adopted for the Y-axis for a workpiece up to 4.4 tons.</p>",
-            "prospect": "wwwroot/app/content/prospects/",
+            "prospect": "app/content/prospects/",
             "info": "https://www.makino.com/vertical-machining-centers/v99-40-taper/"
           },
           {
             "name": "V99 (50 Taper)",
-            "path": "wwwroot/app/images/V99.jpg",
+            "path": "app/images/V99.jpg",
             "description": "<p>The V99 vertical machining center has been specifically designed to minimize thermal distortion for part precision and enhance higher quality finishes on die/mold output. The V99 provides environmentally controlled machine accuracy enhancements, such as Makino’s patented core-cooled, under-race lubrication system that minimizes spindle distortion and twin shield-style splash guards to reduce the effect of temperature change in the factory. Available with either a 40-taper, 20,000-rpm or a 50-taper, 12,000/18,000-rpm spindle, the V99 can rough and finish hardened steel cavities/cores far more efficiently than general-purpose machines. Rigid linear guides and twin ballscrews are adopted for the Y-axis for a workpiece up to 4.4 tons.</p>",
-            "prospect": "wwwroot/app/content/prospects/",
+            "prospect": "app/content/prospects/",
             "info": "https://www.makino.com/vertical-machining-centers/v99-50-taper/"
           },
           {
             "name": "V99L (40 Taper)",
-            "path": "wwwroot/app/images/V99L.jpg",
+            "path": "app/images/V99L.jpg",
             "description": "<p>The V99L vertical machining center has been specifically designed to minimize thermal distortion for part precision and enhance higher quality finishes on die/mold output. The V99L provides environmentally controlled machine accuracy enhancements, such as Makino’s patented core-cooled, under-race lubrication system that minimizes spindle distortion and twin shield-style splash guards to reduce the effect of temperature change in the factory. Available with either a 40-taper, 20,000-rpm or a 50-taper, 12,000/18,000-rpm spindle, the V99L can rough and finish hardened steel cavities/cores far more efficiently than general-purpose machines. Rigid linear guides and twin ballscrews are adopted for the Y-axis for a workpiece up to 4.4 tons.</p>",
-            "prospect": "wwwroot/app/content/prospects/",
+            "prospect": "app/content/prospects/",
             "info": "https://www.makino.com/vertical-machining-centers/v99l-40-taper/"
           },
           {
             "name": "V99L (50 Taper)",
-            "path": "wwwroot/app/images/V99L.jpg",
+            "path": "app/images/V99L.jpg",
             "description": "<p>The V99L vertical machining center has been specifically designed to minimize thermal distortion for part precision and enhance higher quality finishes on die/mold output. The V99L provides environmentally controlled machine accuracy enhancements, such as Makino’s patented core-cooled, under-race lubrication system that minimizes spindle distortion and twin shield-style splash guards to reduce the effect of temperature change in the factory. Available with either a 40-taper, 20,000-rpm or a 50-taper, 12,000/18,000-rpm spindle, the V99L can rough and finish hardened steel cavities/cores far more efficiently than general-purpose machines. Rigid linear guides and twin ballscrews are adopted for the Y-axis for a workpiece up to 4.4 tons.</p>",
-            "prospect": "wwwroot/app/content/prospects/",
+            "prospect": "app/content/prospects/",
             "info": "https://www.makino.com/vertical-machining-centers/v99l-50-taper/"
           },
           {
             "name": "V22-5XB",
-            "path": "wwwroot/app/images/V22-5XB.jpg",
+            "path": "app/images/V22-5XB.jpg",
             "description": "<p>The V22-5XB vertical machining center is designed for die/mold applications. It features a specially designed tilt-trunnion table with combined B- and C-axes to provide die/mold shops with a full 5-axis simultaneous milling answer for intricate 3-D shapes. The table provides the highest accuracies and repeatability available in the industry, with less lost motion and higher stiffness and rigidity than comparative 5-axis machines. The V22-5XB provides one-setup access to complex, multiple-sided parts, reducing handling and costs. It also facilitates access to undercut areas, oddly positioned features and complex geometries—all with optimum, shorter tool lengths. This creates the best tool life and surface finish characteristics in the marketplace. The machine can also be used in the more traditional “2+3” mode for blending and matching complicated multi-plane surfaces typical of die/mold production.</p>",
-            "prospect": "wwwroot/app/content/prospects/V22.pdf",
+            "prospect": "app/content/prospects/V22.pdf",
             "info": "https://www.makino.com/vertical-machining-centers-5-axis/v22-5xb/"
           },
           {
             "name": "V33i-5XB",
-            "path": "wwwroot/app/images/V33i-5XB.jpg",
+            "path": "app/images/V33i-5XB.jpg",
             "description": "<p>The V33i-5XB vertical machining center is designed for die/mold applications. It features a specially designed tilt-trunnion table with combined B- and C-axes to provide die/mold shops with a full 5-axis simultaneous milling answer for intricate 3-D shapes. The table provides the highest accuracies and repeatability available in the industry with less lost motion and higher stiffness and rigidity than comparative 5-axis machines. TheV33i-5XB provides one-setup access to complex, multiple-sided parts, reducing handling and costs. It also facilitates access to undercut areas, oddly positioned features and complex geometries—all with optimum, shorter tool lengths. This creates the best tool life and surface finish characteristics in the marketplace. The machine can also be used in the more traditional “2+3” mode for blending and matching complicated multi-plane surfaces typical of die/mold production.</p>",
-            "prospect": "wwwroot/app/content/prospects/V33i.pdf",
+            "prospect": "app/content/prospects/V33i.pdf",
             "info": "https://www.makino.com/vertical-machining-centers-5-axis/v33i-5xb/"
           },
           {
             "name": "D200z",
-            "path": "wwwroot/app/images/D200z.jpg",
+            "path": "app/images/D200z.jpg",
             "description": "<p>D200Z design incorporates extreme speeds and precision for tighter tolerances and flawless blends and matches in complex 3-D contoured workpieces.  From roughing to high-speed finishing of multifaceted, contoured 3-D geometries, the D200Z boosts productivity with the most competitive processing capabilities for complex dies and molds typically found in the automotive, injection molding, and packaging, medical and optical markets.  The speed and precision of the D200Z supply a unique foundation for responsive high-speed cutting and outstanding surface finishes that reduce or eliminate handwork. Its 30,000-rpm spindle and integral direct-drive table provide quick, precise, full 5-axis machining. All of this capability is tied together with Makino’s proprietary SGI.5 motion control software for the highest degree of accuracy and quality in the blends and matches of intricate surfaces and 3-D accuracy requirements typical of today’s die, mold, medical and intricate-geometry components.</p>",
-            "prospect": "wwwroot/app/content/prospects/D200Z.pdf",
+            "prospect": "app/content/prospects/D200Z.pdf",
             "info": "https://www.makino.com/vertical-machining-centers-5-axis/d200z/"
           },
           {
             "name": "D300",
-            "path": "wwwroot/app/images/D300.jpg",
+            "path": "app/images/D300.jpg",
             "description": "<p>The D300 is designed to provide superior sustained dynamic accuracy in a five–axis configuration.  Core-cooled ballscrews, temperature-controlled DD motors and spindle all combine to deliver thermal stability.  The DD- driven rotary axes provide the speed and accuracy to be productive in a wide variety of workpieces and materials.</p>",
-            "prospect": "wwwroot/app/content/prospects/D300_D500.pdf",
+            "prospect": "app/content/prospects/D300_D500.pdf",
             "info": "https://www.makino.com/vertical-machining-centers-5-axis/d300/"
           },
           {
             "name": "D500",
-            "path": "wwwroot/app/images/D500.jpg",
+            "path": "app/images/D500.jpg",
             "description": "<p>The D500 is designed to provide superior sustained dynamic accuracy, perfect for your complex mold machining needs.  Makino Thermal Stabilizer technology isolates the machine from fluctuating shop conditions. Insulated castings, core-cooled ballscrews, temperature-controlled DD motors and spindle all combine to deliver thermal stability. The rotary axes deliver twice the accuracy of competitive machines to achieve greater accuracy performance when machining away from the center of rotation.</p>",
-            "prospect": "wwwroot/app/content/prospects/D300_D500.pdf",
+            "prospect": "app/content/prospects/D300_D500.pdf",
             "info": "https://www.makino.com/vertical-machining-centers-5-axis/d500/"
           },
           {
             "name": "D800z (40 Taper)",
-            "path": "wwwroot/app/images/D800z.jpg",
+            "path": "app/images/D800z.jpg",
             "description": "<p>The D800Z is designed for high-performance job shops providing precision large part 5-axis machining for the die/mold and aerospace markets. Like the D300 and D500 machines, the D800Z offers easy access to the spindle and table, a highly rigid structure for responsive cutting, outstanding surface finishes and optional automation devices. Workpieces of up to 1,000mm in diameter and 1,200kg in weight can be machined in five axes, with great efficiency and fewer operations for reduced production time. The large part 5-axis machining capabilities of the D800Z can be utilized in five-face milling mode to minimize setup, maximizing access to complex, multisided parts and reducing cycle times, or to address the demanding angular, blending, matching, fine-surface finishes and 3-D accuracy requirements of die-and-mold components.</p>",
-            "prospect": "wwwroot/app/content/prospects/D800Z.pdf",
+            "prospect": "app/content/prospects/D800Z.pdf",
             "info": "https://www.makino.com/vertical-machining-centers-5-axis/d800z-40-taper/"
           },
           {
             "name": "D800z (50 Taper)",
-            "path": "wwwroot/app/images/D800z.jpg",
+            "path": "app/images/D800z.jpg",
             "description": "<p>The D800Z is designed for high-performance job shops providing precision large part 5-axis machining for the die/mold and aerospace markets. Like the D300 and D500 machines, the D800Z offers easy access to the spindle and table, a highly rigid structure for responsive cutting, outstanding surface finishes and optional automation devices. Workpieces of up to 1,000mm in diameter and 1,200kg in weight can be machined in five axes, with great efficiency and fewer operations for reduced production time. The large part 5-axis machining capabilities of the D800Z can be utilized in five-face milling mode to minimize setup, maximizing access to complex, multisided parts and reducing cycle times, or to address the demanding angular, blending, matching, fine-surface finishes and 3-D accuracy requirements of die-and-mold components.</p>",
-            "prospect": "wwwroot/app/content/prospects/D800Z.pdf",
+            "prospect": "app/content/prospects/D800Z.pdf",
             "info": "https://www.makino.com/vertical-machining-centers-5-axis/d800z-50-taper/"
           },
           {
             "name": "iQ300",
-            "path": "wwwroot/app/images/IQ300.jpg",
+            "path": "app/images/IQ300.jpg",
             "description": "<p>The iQ300 is the ideal precision micro milling machine for manufacturers of LED tooling, optic surface finishes and other high-tolerance machining applications. The machine delivers wide ranging capabilities from sub-micron machining accuracy and repeatability up to macro-scale machining applications. The iQ300 micro milling machine is built with a state-of-the-art linear motor design, 0.005-micron scale feedback and unparalleled component temperature control.  Together, these features provide precise and predictable machining results, eliminating continuous process parameter adjustments due to tool positioning error and thermal distortion. The machine can effectively measure tool lengths to sub-micron levels of accuracy and repeatability, providing for simple and predictable tool blends with various cutting tools, spindle speeds and machining depths. Its large work envelope, wide-ranging travels, and flexible spindle design provide for high utility in micro part production, as well as groundbreaking research and development.</p>",
-            "prospect": "wwwroot/app/content/prospects/iQ300.pdf",
+            "prospect": "app/content/prospects/iQ300.pdf",
             "info": "https://www.makino.com/vertical-machining-centers/iq300/"
           },
           {
             "name": "FB127",
-            "path": "wwwroot/app/images/FB127.jpg",
+            "path": "app/images/FB127.jpg",
             "description": "<p>The FB127 vertical machining center provides high-speed machining with superb accuracy, efficient chip removal and ease of operation, for long cycle time die/mold parts. The machine is equipped with core-cooled ballscrews, support bearings and motor mounts as well as a cored-cooled saddle design with Nano slideway to control machine thermal growth, providing sustained accuracy in long cycle time, complex geometry die/mold work. The spindle features Makino’s unique, patented core-cooling and under-race lubrication system, minimizing thermal distortion at high spindle speeds. Integrated construction of the spindle and drive motor rotor reduces vibration during high-speed operation. The FB127’s optimum axis layout and machine construction give you superior performance in a compact package. The axis layout is designed with no overhangs to ensure outstanding accuracy over the full range of axis travel. Painstakingly polished to a precision finish, the guideways are integrated with the machine to provide superior accuracy and rigidity.</p>",
-            "prospect": "wwwroot/app/content/prospects/",
+            "prospect": "app/content/prospects/",
             "info": "https://www.makino.com/vertical-machining-centers/fb127/"
           }
         ]
@@ -200,6 +200,13 @@
       {
         "name": "SHW",
         "models": [
+          {
+            "name": "Kommer snart",
+            "path": "",
+            "description": "",
+            "prospect": "",
+            "info": ""
+          }
         ]
       }
     ]
@@ -690,11 +697,11 @@
         "name": "EROWA",
         "models": [
           {
-            "name": "Link til EROWA Schweiz",
-            "path": "",
-            "description": "Erowa tekst",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "name": "EROWA Schweiz",
+            "path": "app/images/erowa-logo.png",
+            "description": "",
+            "prospect": "",
+            "info": "http://www.erowa.com/en/homepage.html"
           }
         ]
       },
@@ -702,11 +709,11 @@
         "name": "Hirschmann",
         "models": [
           {
-            "name": "Link til Hirschmann GMBH",
-            "path": "",
-            "description": "Hirschmann tekst",
-            "prospect": "app/content/prospects/",
-            "info": ""
+            "name": "Hirschmann GMBH",
+            "path": "app/images/hirschmann-logo.png",
+            "description": "",
+            "prospect": "",
+            "info": "http://www.hirschmann.com/"
           }
         ]
       }

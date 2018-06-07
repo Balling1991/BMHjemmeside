@@ -124,6 +124,7 @@
     <Content Include="app\images\EDNC6.jpg" />
     <Content Include="app\images\EDNC8.jpg" />
     <Content Include="app\images\Emcomat E-300.png" />
+    <Content Include="app\images\erowa-logo.png" />
     <Content Include="app\images\F3.jpg" />
     <Content Include="app\images\F5.jpg" />
     <Content Include="app\images\F8.jpg" />
@@ -131,6 +132,7 @@
     <Content Include="app\images\FB127.jpg" />
     <Content Include="app\images\Frank_Nielsen.jpg" />
     <Content Include="app\images\gantryLine.png" />
+    <Content Include="app\images\hirschmann-logo.png" />
     <Content Include="app\images\IQ300.jpg" />
     <Content Include="app\images\Michael_Balling.jpg" />
     <Content Include="app\images\microCut.png" />

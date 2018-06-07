@@ -48,7 +48,9 @@
                             <h3>{{modelToRender.name}}</h3>
                             <div ng-bind-html="trustedDescription"></div>
                             <a href="{{modelToRender.info}}" target="_blank" class="btn btn-sm btn-primary">Mere info</a>
-                            <a href="{{modelToRender.prospect}}" target="_blank" class="btn btn-sm btn-default">Se brochure</a>
+                            <span ng-if="checkForProspect(modelToRender.prospect)">
+                                <a href="{{modelToRender.prospect}}" target="_blank" class="btn btn-sm btn-default">Se brochure</a>
+                            </span>
                         </div>
                     </div>
                 </div>

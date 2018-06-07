@@ -20,6 +20,11 @@
     width: 100%;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .push.home{
     height: 50px;
 }
@@ -233,15 +238,6 @@
         }
     }
 
-    @media (max-width: 991px) {
-        #menuLogo {
-            content: url("../images/Balling_Maskiner_NYT_LOGO_fritlagt.png");
-            height: 45px;
-            margin-top: 3px;
-            width: unset;
-        }
-    }
-
     @media (min-width: 768px) and (max-width: 991px) {
         .container {
             width: 100%;
@@ -257,7 +253,8 @@
     /* MENU */
     #menuLogo {
     display: block;
-    height: 100px;
+    max-height: 100px;
+    min-height: 70px;
     margin: 10px auto;
 }
 
