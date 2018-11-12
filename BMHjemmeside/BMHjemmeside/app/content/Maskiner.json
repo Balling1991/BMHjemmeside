@@ -17,7 +17,7 @@
             "path": "app/images/PS65.jpg",
             "description": "<p>The PS65 CNC vertical machining center is setting a new standard in the production machining arena. By design, the PS65 and PS95 machines offer a unique blend of power, speed, precision, efficiency, flexibility and productivity. The PS-Series machines design incorporates a heavy cast iron construction for stiffness, rigidity and precision.  This CNC vertical machining center also includes core-cooled ballscrews and temperature control for precision and linear guideways for speed and performance.</p>",
             "prospect": "app/content/prospects/PS65_105_EN.pdf",
-            "info": "https://www.makino.com/vertical-machining-centers/ps65/"
+            "info": "https://www.makino.com/machine-technology/machines/vertical-machining-centers-3-axis/ps65-vertical-machining-center"
           },
           {
             "name": "PS105",
@@ -713,7 +713,7 @@
             "path": "app/images/hirschmann-logo.png",
             "description": "",
             "prospect": "",
-            "info": "http://www.hirschmann.com/"
+            "info": "https://www.hirschmanngmbh.de/willkommen"
           }
         ]
       }
