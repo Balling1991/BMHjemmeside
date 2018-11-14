@@ -1,4 +1,4 @@
-﻿app.controller('serviceController', function ($scope, $rootScope) {
+﻿app.controller('serviceController', function ($scope) {
 
     $scope.message = "This is service";
 });

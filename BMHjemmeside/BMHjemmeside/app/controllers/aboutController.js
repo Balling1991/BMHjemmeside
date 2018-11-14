@@ -1,2 +1,2 @@
-﻿app.controller('aboutController', function ($scope, $rootScope) {
+﻿app.controller('aboutController', function () {
 });

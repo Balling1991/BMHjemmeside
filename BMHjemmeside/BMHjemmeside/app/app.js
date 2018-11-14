@@ -35,7 +35,7 @@ app.config(function ($routeProvider) {
         .otherwise({ redirectTo: '/home' });
 });
 
-app.controller('appController', function ($rootScope) {
+app.controller('appController', function () {
 });
 
 
@@ -47,10 +47,10 @@ var initPage = function () {
     $(".navbar-collapse").removeClass("in");
     var page = (window.location.hash).slice(2);
     $("#" + page).addClass("active");
-}
+};
 
 app.run(function ($rootScope) {
     $rootScope.$on('$routeChangeSuccess', function () {
         initPage();
-    })
-})
+    });
+});

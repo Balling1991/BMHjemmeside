@@ -1,4 +1,4 @@
-﻿app.controller('technologyController', function ($scope, $rootScope, $http, $sce) {
+﻿app.controller('technologyController', function ($scope, $http, $sce) {
 
     $scope.modelToRender = null;
     $scope.teknologier = null;
@@ -17,5 +17,5 @@
 
     $scope.checkForProspect = function (prospect) {
         return prospect.endsWith(".pdf");
-    }
+    };
 });
